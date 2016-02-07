@@ -1,5 +1,5 @@
 <?php
-$locale['bb_color_description'] = "Color selected text";
-$locale['bb_color_usage'] = "Color selected text";
-$locale['bb_color_hex'] = "HEX color value with hash";
-
+$locale['bb_color_description'] = "Coloreaz&#259; textul selectat";
+$locale['bb_color_usage'] = "Coloreaz&#259; textul selectat";
+$locale['bb_color_hex'] = "Valoarea hexa cu simbolul diez &#238;n fa&#355;&#259;";
+?>

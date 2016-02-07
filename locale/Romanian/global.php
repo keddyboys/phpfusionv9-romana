@@ -4,6 +4,7 @@
 Romanian Language Fileset
 Produced by PHP-Fusion Romania
 Email: nicu@phpfusion.ro
+Email: keddy@phpfusion.ro
 Web: http://www.phpfusion.ro/
 */
 
@@ -342,7 +343,7 @@ $locale['home'] = "Acas&#259;";
 $locale['error'] = "Eroare!";
 $locale['success'] = "Succes!";
 $locale['enable'] = "Activeaz&#259;";
-$locale['disable'] = "Dezctiveaz&#259;";
+$locale['disable'] = "Dezactiveaz&#259;";
 $locale['can'] = "Po&#355;i";
 $locale['cannot'] = "Nu po&#355;i";
 $locale['no'] = "Nu";
@@ -468,3 +469,4 @@ $locale['fmt_week'] = "s&#259;pt&#259;m&#226;ni|s&#259;pt&#259;m&#226;n&#259;";
 $locale['fmt_year'] = "ani|an";
 // include Defender locales
 include __DIR__."/defender.php";
+?>

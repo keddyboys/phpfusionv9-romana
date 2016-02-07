@@ -1,4 +1,4 @@
 <?php
-$locale['bb_size_description'] = "Defines size of selected text";
-$locale['bb_size_usage'] = "Text to size";
-
+$locale['bb_size_description'] = "Define&#351;te m&#259;rimea textului selectat";
+$locale['bb_size_usage'] = "M&#259;rime text";
+?>

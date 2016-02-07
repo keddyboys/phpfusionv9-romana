@@ -1,7 +1,8 @@
 <?php
-$locale['c400'] = "Custom Pages";
-$locale['c401'] = "Custom Page";
-$locale['c402'] = "Custom Pages";
-$locale['c403'] = "found in";
-$locale['c404'] = "page title";
-$locale['c405'] = "page content";
+$locale['c400'] = "Pagini personalizate";
+$locale['c401'] = "Pagin&#259; personalizat&#259;";
+$locale['c402'] = "Pagini personalizate";
+$locale['c403'] = "g&#259;sit(e) &#238;n";
+$locale['c404'] = "titlu pagin&#259;";
+$locale['c405'] = "con&#355;inut pagin&#259;";
+?>

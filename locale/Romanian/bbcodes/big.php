@@ -1,4 +1,4 @@
 <?php
-$locale['bb_big_description'] = "Display text as BIG";
-$locale['bb_big_usage'] = "Text to big";
-
+$locale['bb_big_description'] = "Afi&#351;eaz&#259; textul mare";
+$locale['bb_big_usage'] = "Text mare";
+?>

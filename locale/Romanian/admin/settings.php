@@ -40,7 +40,7 @@ $locale['435'] = "Exclude panourile de mai sus";//Above Upper Panels:";
 $locale['436'] = "Exclude panourile de mai jos";//Below Lower Panels:";
 $locale['437'] = "Activeaz&#259; Bootstrap Responsive Framework";
 $locale['438'] = "Caut&#259; Engine Friendly URL (SEF):";
-$locale['439'] = "Normalizea&#259; Friendly URLs:";//Normalize
+$locale['439'] = "Normalizeaz&#259; Friendly URLs:";//Normalize
 $locale['440'] = "Activeaz&#259; mod depanare SEO";// SEO Debug Mode:";
 $locale['441'] = "Activeaz&#259; Emtypo";//"Enable Entypo";
 $locale['442'] = "Activeaz&#259; Font-Awesome";//"Enable Font-Awesome";
@@ -282,3 +282,4 @@ $locale['theme_settings'] = "Set&#259;ri tematic&#259;";
 
 $locale['securimage'] = "Secure Image";
 $locale['securimage2'] = "Secure Image v.2";
+?>

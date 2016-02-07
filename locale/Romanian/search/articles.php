@@ -1,7 +1,8 @@
 <?php
-$locale['a400'] = "Articles";
-$locale['a401'] = "Article";
-$locale['a402'] = "Articles";
-$locale['a403'] = "found in";
-$locale['a404'] = "article subject";
-$locale['a405'] = "article text";
+$locale['a400'] = "Articole";
+$locale['a401'] = "Articol";
+$locale['a402'] = "Articole";
+$locale['a403'] = "g&#259;sit(e) &#238;n";
+$locale['a404'] = "subiect articol";
+$locale['a405'] = "text articol";
+?>

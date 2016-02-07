@@ -1,4 +1,4 @@
 <?php
-$locale['bb_smiley_description'] = "Smileys";
-$locale['bb_smiley_usage'] = "Insert smiley bbcode";
-
+$locale['bb_smiley_description'] = "Figurine";
+$locale['bb_smiley_usage'] = "Insereaz&#259; codul bb al figurinei";
+?>

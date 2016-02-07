@@ -1,11 +1,12 @@
 <?php
-$filename_locale['articles.php'] = "Articles";
+$filename_locale['articles.php'] = "Articole";
 $filename_locale['blog.php'] = "Blog";
-$filename_locale['custompages.php'] = "Custom Pages";
-$filename_locale['downloads.php'] = "Downloads";
-$filename_locale['faqs.php'] = "FAQ";
-$filename_locale['forums.php'] = "Forums";
-$filename_locale['members.php'] = "Members";
-$filename_locale['news.php'] = "News";
-$filename_locale['photos.php'] = "Photo Gallery";
-$filename_locale['weblinks.php'] = "Weblinks";
+$filename_locale['custompages.php'] = "Pagini personalizate";
+$filename_locale['downloads.php'] = "Desc&#259;rc&#259;ri";
+$filename_locale['faqs.php'] = "&#206;ntreb&#259;ri frecvente";
+$filename_locale['forums.php'] = "Forum ";
+$filename_locale['members.php'] = "Membri";
+$filename_locale['news.php'] = "&#350;tiri";
+$filename_locale['photos.php'] = "Galerie foto";
+$filename_locale['weblinks.php'] = "Leg&#259;turi pe internet";
+?>

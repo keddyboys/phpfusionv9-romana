@@ -1,7 +1,7 @@
 <?php
-$locale['bb_search_description'] = "Searching for given text on current site";
-$locale['bb_search_usage'] = "Text to search";
-$locale['bb_search_prefix'] = "Search for ";
-$locale['bb_search_suffix'] = " on ";
-$locale['bb_search_where'] = "Where";
-
+$locale['bb_search_description'] = "Caut&#259; textul dat pe saitul curent";
+$locale['bb_search_usage'] = "Textul de c&#259;utat";
+$locale['bb_search_prefix'] = "Caut&#259; ";
+$locale['bb_search_suffix'] = " pe ";
+$locale['bb_search_where'] = "Unde";
+?>
