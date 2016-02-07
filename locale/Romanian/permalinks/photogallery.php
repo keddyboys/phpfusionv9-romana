@@ -1,3 +1,4 @@
 <?php
-$locale['pl_gallery_title'] = "Photo Albums";
-$locale['pl_gallery_desc'] = "Enable Permalinks for the Photo Albums links in the site.";
+$locale['pl_gallery_title'] = "Albume foto";
+$locale['pl_gallery_desc'] = "Activeaz&#259; leg&#259;turi SEo pentru albumele foto.";
+?>

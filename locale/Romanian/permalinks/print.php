@@ -1,4 +1,5 @@
 <?php
-$locale['pl_print_title'] = "Print Pages";
-$locale['pl_print_desc'] = "Enable Permalinks for the page of Print.";
+$locale['pl_print_title'] = "Printare";
+$locale['pl_print_desc'] = "Activeaz&#259; leg&#259;tur&#259; SEo pentru printare.";
+?>
 

@@ -1,3 +1,4 @@
 <?php
-$locale['pl_homepage_title'] = "Homepage";
-$locale['pl_homepage_desc'] = "Enable Permalinks for the Homepage link in the site.";
+$locale['pl_homepage_title'] = "Pagin&#259; pornire";
+$locale['pl_homepage_desc'] = "Activeaz&#259; leg&#259;tur&#259; SEo pentru pagina de pornire.";
+?>

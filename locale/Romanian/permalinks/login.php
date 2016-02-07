@@ -1,4 +1,4 @@
 <?php
-$locale['pl_login_title'] = "Login/Logout";
-$locale['pl_login_desc'] = "Enable Permalinks for the User Info Panel links in the site.";
-
+$locale['pl_login_title'] = "Conectare/Deconectare";
+$locale['pl_login_desc'] = "Activeaz&#259; leg&#259;tur&#259; SEo pentu panoul utilizatorului.";
+?>

@@ -1,4 +1,4 @@
 <?php
-$locale['pl_post_title'] = "Forum Posts";
-$locale['pl_post_desc'] = "Enable Permalinks for the Forum Post Links.";
-
+$locale['pl_post_title'] = "Post&#259;ri pe forum";
+$locale['pl_post_desc'] = "Activeaz&#259; leg&#259;turi Seo pentru post&#259;rile din forum.";
+?>
