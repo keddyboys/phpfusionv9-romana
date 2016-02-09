@@ -1,9 +1,8 @@
 <?php
 // Section Titles
-$locale['400a'] = "Set&#259;ri leg&#259;turi SEo";//Permalink Settings
 $locale['400'] = "Leg&#259;turi SEo activate";
 $locale['401'] = "Leg&#259;turi SEo dezactivate";
-
+$locale['401a'] = "Set&#259;ri leg&#259;turi SEo";//Permalink Settings
 // Common
 $locale['402'] = "Nume leg&#259;tur&#259; SEo";//Rewrite Name
 $locale['403'] = "Descriere";

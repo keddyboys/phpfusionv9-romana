@@ -1,104 +1,104 @@
 <?php
 // Web Link Category titles
-$locale['402'] = "Current Web Link Categories";
+$locale['402'] = "Categoriile actuale de leg&#259;turi pe internet";
 // Web Link titles
-$locale['wl_0001'] = "Add Web Link";
-$locale['wl_0002'] = "Edit Web Link";
-$locale['wl_0003'] = "Current Web Links";
-$locale['wl_0004'] = "Web Link Categories";
-$locale['wl_0005'] = "Edit Web Link Category";
-$locale['wl_0006'] = "Configuration page for Web Links";
+$locale['wl_0001'] = "Adaug&#259; o leg&#259;tur&#259; pe internet";
+$locale['wl_0002'] = "Editeaz&#259; o leg&#259;tur&#259; pe internet";
+$locale['wl_0003'] = "Leg&#259;turile pe internet actuale";
+$locale['wl_0004'] = "Categorii leg&#259;turi pe internet";
+$locale['wl_0005'] = "Editeaz&#259; categorie leg&#259;turi pe internet";
+$locale['wl_0006'] = "Pagina de configurare pentru leg&#259;turi pe internet";
 $locale['wl_0007'] = "There are currently %s pending for your review.";
-$locale['wl_0008'] = "There are currently no Web Link submisisons";
+$locale['wl_0008'] = "Nu exist&#259; nicio trimitere de leg&#259;tur&#259; pe internet";
 // Web Link form
-$locale['wl_0100'] = "Web Link Name:";
-$locale['wl_0101'] = "Site name";
-$locale['wl_0102'] = "Please enter a link name";
-$locale['wl_0103'] = "Description:";
-$locale['wl_0104'] = "Web Link URL:";
-$locale['wl_0105'] = "Category:";
-$locale['wl_0106'] = "Visibility:";
+$locale['wl_0100'] = "Nume leg&#259;tur&#259;:";
+$locale['wl_0101'] = "Nume sait:";
+$locale['wl_0102'] = "Te rog introdu un nume pentru leg&#259;tur&#259;";
+$locale['wl_0103'] = "Descriere:";
+$locale['wl_0104'] = "URL sait:";
+$locale['wl_0105'] = "Categorie:";
+$locale['wl_0106'] = "Vizibilitate:";
 $locale['wl_0107'] = "Update Publication Date";
-$locale['wl_0108'] = "Save Web Link";
+$locale['wl_0108'] = "Salveaz&#259; leg&#259;tur&#259;";
 // Current Web Links
-$locale['wl_0200'] = "Web Links";
-$locale['wl_0201'] = "Category";
+$locale['wl_0200'] = "Leg&#259;turi pe internet";
+$locale['wl_0201'] = "Categorie";
 $locale['wl_0203'] = "URL";
-$locale['wl_0204'] = "Web Link Id";
-$locale['wl_0205'] = "Edit";
-$locale['wl_0206'] = "Delete";
-$locale['wl_0207'] = "There are no web links defined";
-$locale['wl_0208'] = "Web Link Actions";
+$locale['wl_0204'] = "Id leg&#259;tur&#259;";
+$locale['wl_0205'] = "Editeaz&#259;";
+$locale['wl_0206'] = "&#350;terge";
+$locale['wl_0207'] = "Nicio leg&#259;tur&#259; pe internet ad&#259;ugat&#259;";
+$locale['wl_0208'] = "Op&#355;iuni leg&#259;turi";//Web Link Actions";
 // Web Link messages
-$locale['wl_0300'] = "Web Link added";
-$locale['wl_0301'] = "Web Link updated";
-$locale['wl_0302'] = "Web Link deleted";
-$locale['wl_0303'] = "Delete this Web Link?";
+$locale['wl_0300'] = "Leg&#259;tur&#259; pe internet ad&#259;ugat&#259;";
+$locale['wl_0301'] = "Leg&#259;tur&#259; pe internet actualizat&#259;";
+$locale['wl_0302'] = "Leg&#259;tur&#259; pe internet &#351;tears&#259;";
+$locale['wl_0303'] = "Sterg aceasta legatura pe internet?";
 // Web Link Category messages
-$locale['wl_0304'] = "Web Link Category added";
-$locale['wl_0305'] = "Web Link Category updated";
-$locale['wl_0306'] = "Web Link Category deleted";
-$locale['wl_0307'] = "Web Link Category cannot be deleted";
-$locale['wl_0308'] = "There are Web Links or Sub-Categories linked to this category";
-$locale['wl_0309'] = "This category already exists.";
-$locale['wl_0310'] = "Delete this Web Link category?";
+$locale['wl_0304'] = "Categoria de leg&#259;turi pe internet ad&#259;ugat&#259;";
+$locale['wl_0305'] = "Categoria de leg&#259;turi pe internet actualizat&#259;";
+$locale['wl_0306'] = "Categoria de leg&#259;turi pe internet &#351;tears&#259;";
+$locale['wl_0307'] = "Categoria de leg&#259;turi pe internet nu poate fi &#351;tears&#259;";
+$locale['wl_0308'] = "Exist&#259; leg&#259;turi sau sub-categorii care apar&#355;in acestei categorii";
+$locale['wl_0309'] = "Aceast&#259; categorie exist&#259; deja.";
+$locale['wl_0310'] = "&#350;terg aceast&#259; categorie?";
 // Filters
-$locale['wl_0400'] = "Filter by:";
-$locale['wl_0401'] = "Filter show category by";
-$locale['wl_0402'] = "All Web Link Entries";
+$locale['wl_0400'] = "Filtreaz&#259; dup&#259;:";
+$locale['wl_0401'] = "Filtreaz&#259; categorie dup&#259;";
+$locale['wl_0402'] = "Toate leg&#259;turile pe internet";
 // Add/Edit Web Link Category Form
-$locale['wl_0700'] = "Category Name:";
-$locale['wl_0701'] =  "Please enter a category name";
-$locale['wl_0702'] = "Category Description:";
-$locale['wl_0703'] = "Parent Category";
-$locale['wl_0704'] = "Category Sorting:";
-$locale['wl_0705'] = "Web Link ID";
-$locale['wl_0706'] = "Web Link Name";
-$locale['wl_0707'] = "Web Link Date";
-$locale['wl_0708'] = "Ascending";
-$locale['wl_0709'] = "Descending";
-$locale['wl_0710'] = "Web Link Category Editor";
-$locale['wl_0711'] = "Save Category";
-$locale['536'] = "No Web Link categories defined";
-$locale['537'] = "There are no Web Link categories defined";
-$locale['538'] = "You must define at least one category before you can add any Web Links";
-$locale['539'] = "Click here";
-$locale['540'] = " to go to Web Link Categories";
+$locale['wl_0700'] = "Nume categorie:";
+$locale['wl_0701'] = "Te rog introdu un nume de categorie";
+$locale['wl_0702'] = "Descriere categorie:";
+$locale['wl_0703'] = "P&#259;rinte categorie:";
+$locale['wl_0704'] = "Sortare categorie:";
+$locale['wl_0705'] = "ID leg&#259;tur&#259;";
+$locale['wl_0706'] = "Nume leg&#259;tur&#259;";
+$locale['wl_0707'] = "Dat&#259; leg&#259;tur&#259;";
+$locale['wl_0708'] = "Cresc&#259;tor";
+$locale['wl_0709'] = "Descresc&#259;tor";
+$locale['wl_0710'] = "Editor categorie";
+$locale['wl_0711'] = "Salveaz&#259; categoria";
+$locale['536'] = "Nicio categorie de leg&#259;turi pe internet definit&#259;";
+$locale['537'] = "Nu exist&#259; categorii de leg&#259;turi pe internet definite";
+$locale['538'] = "Trebuie s&#259; define&#351;ti cel pu&#355;in o categorie &#238;nainte de a ad&#259;uga o leg&#259;tur&#259; pe internet";
+$locale['539'] = "Apas&#259; aici";
+$locale['540'] = " pentru a intra &#238;n categoriile de leg&#259;turi pe internet";
 // Submissions
-$locale['wl_0500'] = "Web Link Submissions";
-$locale['wl_0501'] = "Currently displaying %d of %d total Web Link entries";
-$locale['wl_0503'] = "Submission Subject for Review";
-$locale['wl_0504'] = "Submission Author";
-$locale['wl_0505'] = "Submission Time";
-$locale['wl_0506'] = "Submission Id";
-$locale['wl_0507'] = "Web Link Submission has been deleted";
-$locale['wl_0508'] = "Publish Web Link";
-$locale['wl_0509'] = "Web Link Submissions has been published";
-$locale['wl_0510'] = "The above Web Link was submitted by ";
-$locale['wl_0511'] = "Posted by ";
-$locale['wl_0512'] = "Delete Submission";
+$locale['wl_0500'] = "Leg&#259;turi trimise";
+$locale['wl_0501'] = "Sunt afi&#351;ate %d din totalul de %d leg&#259;turi pe internet";
+$locale['wl_0503'] = "Vizualizare trimiteri";
+$locale['wl_0504'] = "Autor trimitere";
+$locale['wl_0505'] = "Dat&#259; trimitere";
+$locale['wl_0506'] = "Id trimitere";
+$locale['wl_0507'] = "Trimiterile de leg&#259;turi pe internet au fost &#351;terse";
+$locale['wl_0508'] = "Publi&#259; leg&#259;tura";
+$locale['wl_0509'] = "Leg&#259;tura a fost publicat&#259;";
+$locale['wl_0510'] = "Urm&#259;toarea leg&#259;tur&#259; a fost trimis&#259; de ";
+$locale['wl_0511'] = "Postat&#259; de ";
+$locale['wl_0512'] = "&#350;terge leg&#259;tura";
 // Public
-$locale['wl_0800'] = "Submit Link";
+$locale['wl_0800'] = "Trimite leg&#259;tur&#259;";
 // Submit Link Success
-$locale['wl_0801'] = "Thank you for submitting your Link";
-$locale['wl_0802'] = "Submit another Link";
-$locale['wl_0803'] = "Return to [SITENAME]";
+$locale['wl_0801'] = "&#206;&#355;i mul&#355;umim pentru trimterea de leg&#259;tur&#259;";
+$locale['wl_0802'] = "Trimite o alt&#259; leg&#259;tur&#259;";
+$locale['wl_0803'] = "Revenire la [SITENAME]";
 // Submit Link Form
-$locale['wl_0804'] = "Use the following form to submit Web Link. Your submission will be reviewed by an
-Administrator. [SITENAME] reserves the right to amend or edit any submission. Web Link
-should be applicable to the content of this site. Unsuitable submissions will be deleted.";
-$locale['wl_0805'] = "Web Link Category:";
-$locale['wl_0806'] = "Web Link Name:";
-$locale['wl_0807'] = "Web Link URL:";
-$locale['wl_0808'] = "Web Link Description:";
-$locale['wl_0809'] = "Sorry, we currently do not accept any Web Link submissions on this site.";
+$locale['wl_0804'] = "Folose&#351;te acest formular pentru a trimite o leg&#259;tur&#259; pe internet. <br />Trimiterea ta va fi verificat&#259; de un Administrator. <br /> 
+[SITENAME] &#238;&#351;i rezerv&#259; dreptul de a amenda sau edita orice trimitere.<br /> 
+Trimiterile ar trebui s&#259; fie aplicabile con&#355;inutului acestui portal, iar cele nepotrivite vor fi respinse.";
+$locale['wl_0805'] = "Categorie de leg&#259;tur&#259;:";
+$locale['wl_0806'] = "Nume leg&#259;tur&#259;:";
+$locale['wl_0807'] = "URL leg&#259;tur&#259;:";
+$locale['wl_0808'] = "Descriere leg&#259;tur&#259;:";
+$locale['wl_0809'] = "Ne pare r&#259;u, deocamdat&#259; nu accept&#259;m trimiteri de leg&#259;turii.";
 // Settings
-$locale['wl_0600'] = "Settings";
-$locale['wl_0601'] = "Allow Web Link submissions?";
-$locale['wl_0602'] = "Require Web Link description?";
-$locale['601'] = "Settings Updated";
-$locale['602'] = "Links";
-$locale['603'] = "Links per page";
-$locale['604'] = "Save settings";
-$locale['error_value'] = "Please enter a value.";
+$locale['wl_0600'] = "Set&#259;ri";
+$locale['wl_0601'] = "Activez trimiterile de leg&#259;turi pe internet?";
+$locale['wl_0602'] = "Descrierea leg&#259;turii este obligatorie?";
+$locale['601'] = "Set&#259;ri actualizate";
+$locale['602'] = "Leg&#259;turi";
+$locale['603'] = "Leg&#259;turi pe pagin&#259;";
+$locale['604'] = "Salveaz&#259; set&#259;rile";
+$locale['error_value'] = "Te rog introdu o valoare.";
 ?>
