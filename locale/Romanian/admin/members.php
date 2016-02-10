@@ -27,23 +27,23 @@ $locale['422'] = "Membru &#351;ters";
 $locale['423'] = "Esti sigur ca vrei sa stergi acest membru?";
 $locale['424'] = "Membru activat";
 $locale['425'] = "Aten&#355;ie!";
-$locale['425a'] = "E&#351;ti pe cale sa &#351;tergi utilizatorul %s!\nCon&#351;inutul urm&#259;tor postat de acest utilizator va fi &#351;ters dac&#259; continui:\n
-- Articole\n
-- &#350;tiri\n
-- Discu&#355;ii pe forum.Not&#259;: post&#259;rile efectuate de al&#355;i utulizatori vor fi deasemenea &#351;terse, &#238;mpreun&#259; cu voturile &#238;n sondaje &#351;i ata&#351;amentele existente &#238;n aceste discu&#355;ii.\n
-- Post&#259;rii pe forum.\n
-- Ata&#351;amente pe forum.\n
-- Mesajele private trimise sau primite.\n
-- Voturile\n
-- Evalu&#259;rile\n\n
-Dac&#259; este spammer &#238;&#351;i recomand&#259;m s&#259;-l suspenzi, anulezi sau anomizezi.\n
+$locale['425a'] = "E&#351;ti pe cale sa &#351;tergi utilizatorul %s!\n\n<br />Con&#355;inutul urm&#259;tor postat de acest utilizator va fi &#351;ters dac&#259; continui:\n<br />
+- articole\n<br />
+- &#351;tiri\n<br />
+- discu&#355;ii pe forum<br /><strong>Not&#259;</strong>: post&#259;rile efectuate de al&#355;i utilizatori vor fi deasemenea &#351;terse, &#238;mpreun&#259; cu voturile &#238;n sondaje &#351;i ata&#351;amentele existente &#238;n aceste discu&#355;ii\n<br />
+- post&#259;rii pe forum\n<br />
+- ata&#351;amente pe forum\n<br />
+- mesajele private trimise sau primite\n<br />
+- voturile\n<br />
+- evalu&#259;rile\n\n<br />
+Dac&#259; este spammer &#238;&#351;i recomand&#259;m s&#259;-l suspenzi, anulezi sau anomizezi.\n<br />
 E&#351;ti sigur ca vrei s&#259; &#351;tergi acest membru?\n";
 $locale['426'] = "Da";
 $locale['427'] = "Nu";
 // Edit Member Details
 $locale['430'] = "Editeaz&#259; membru";
 // Add Member Errors
-$locale['480'] = "Adau&#259; membru";
+$locale['480'] = "Adaug&#259; membru";
 $locale['481'] = "Contul membrului a fost creat.";
 $locale['482'] = "Contul membrului nu a putut fi creat.";
 // Suspension Log 
