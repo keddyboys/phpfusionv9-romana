@@ -46,3 +46,4 @@ $locale['T302'] = "[SUBJECT]";
 $locale['T303'] = "[MESSAGE]";
 $locale['UF'] = "Politica de confiden&#355;ialitate";
 $locale['SEO'] = "SEo";
+?>
