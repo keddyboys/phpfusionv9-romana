@@ -1,105 +1,105 @@
 <?php
 // Article titles
-$locale['articles_0000'] = "Current Articles";
-$locale['articles_0001'] = "Articles";
-$locale['articles_0002'] = "Add Article";
-$locale['articles_0003'] = "Edit Article";
+$locale['articles_0000'] = "Articolele curente";
+$locale['articles_0001'] = "Articole";
+$locale['articles_0002'] = "Adaug&#259; un articol";
+$locale['articles_0003'] = "Editeaz&#259; un articol";
 // Category titles
-$locale['articles_0020'] = "Article Categories";
-$locale['articles_0021'] = "Add Article Category";
-$locale['articles_0022'] = "Edit Article Category";
-$locale['articles_0023'] = "All Article Entries";
-$locale['articles_0024'] = "Currently displaying %d of %d total article entries";
-$locale['articles_0025'] = "Filter by:";
-$locale['articles_0026'] = "Filter show articles by";
-$locale['articles_0027'] = "Article Category Editor";
+$locale['articles_0020'] = "Categorii de articole";
+$locale['articles_0021'] = "Adaug&#259; o categorie de articole";
+$locale['articles_0022'] = "Editeaz&#259; o categorie de articole";
+$locale['articles_0023'] = "Toate articolele";
+$locale['articles_0024'] = "Sunt afi&#351;ate %d din %d articol(e)";
+$locale['articles_0025'] = "Filtreaz&#259; dup&#259;:";
+$locale['articles_0026'] = "Filtreaz&#259; articolele dup&#259;";
+$locale['articles_0027'] = "Editor/administrator categorii de articole";
 // Article Settings
-$locale['articles_0030'] = "Article Settings";
-$locale['articles_0031'] = "The configuration settings for Article System";
-$locale['articles_0032'] = "Article items per page";
-$locale['articles_0033'] = "Allow article submissions?";
-$locale['articles_0034'] = "Require extended articles?";
+$locale['articles_0030'] = "Set&#259;ri articole";
+$locale['articles_0031'] = "Set&#259;rile de configurare pentru articole";
+$locale['articles_0032'] = "Articole pe pagin&#259;";
+$locale['articles_0033'] = "Permit trimiterea de articole?";
+$locale['articles_0034'] = "Este obligatoriu articolul extins?";
 // Article Submissions
-$locale['articles_0040'] = "Article Submissions";
-$locale['articles_0041'] = "Submission Subject for Review";
-$locale['articles_0042'] = "There are currently no article submissions";
-$locale['articles_0043'] = "Sorry, we currently do not accept any articles submissions on this site.";
-$locale['articles_0044'] = "There are currently %s pending for your review.";
-$locale['articles_0045'] = "Preview Article";
-$locale['articles_0046'] = "Submission Author";
-$locale['articles_0047'] = "Submission Time";
-$locale['articles_0048'] = "Submission Id";
-$locale['articles_0049'] = "Article Submission has been deleted";
-$locale['articles_0050'] = "Article Submissions has been published";
-$locale['articles_0051'] = "Article Submissions is saved as draft";
-$locale['articles_0052'] = "The above article was submitted by ";
-$locale['articles_0053'] = "Posted by ";
+$locale['articles_0040'] = "Trimiteri articole";
+$locale['articles_0041'] = "Trimiteri de verificat";
+$locale['articles_0042'] = "Nu exist&#259; niciun articol trimis";
+$locale['articles_0043'] = "Ne pare r&#259;u, deocamdat&#259; nu accept&#259;m trimiteri de articole.";
+$locale['articles_0044'] = "Momentan sunt %s care a&#351;teapt&#259; s&#259; fie verificate.";
+$locale['articles_0045'] = "Previzualizeaz&#259; articol";
+$locale['articles_0046'] = "Autor trimitere";
+$locale['articles_0047'] = "Data trimitere";
+$locale['articles_0048'] = "Id trimitere";
+$locale['articles_0049'] = "Articolul trimis a fost &#351;ters";
+$locale['articles_0050'] = "Articolul trimis a fost publicat";
+$locale['articles_0051'] = "Articolul trimis a fost salvat ca ciorn&#259;";
+$locale['articles_0052'] = "Articolul de mai sus a fost trimis de ";
+$locale['articles_0053'] = "Postat de ";
 
-$locale['articles_0060'] = "Submit Article";
-$locale['articles_0061'] = "Thank you for submitting your Article";
-$locale['articles_0062'] = "Submit another Article item";
-$locale['articles_0063'] = "Use the following form to submit Article. Your submission will be reviewed by an
-Administrator. [SITENAME] reserves the right to amend or edit any submission. Article
-should be applicable to the content of this site. Unsuitable submissions will be deleted.";
-$locale['articles_0064'] = "Return to [SITENAME]";
+$locale['articles_0060'] = "Trimite articolul";
+$locale['articles_0061'] = "&#206;&#355;i mul&#355;umim pentru trimterea de articol";
+$locale['articles_0062'] = "Trimite un alt articol";
+$locale['articles_0063'] = "Folose&#351;te acest formular pentru a trimite un articol.  Trimiterea ta va fi verificat&#259; de un Administrator. <br />
+[SITENAME] &#238;&#351;i rezerv&#259; dreptul de a amenda sau edita orice trimitere.<br /> 
+Trimiterile ar trebui s&#259; fie aplicabile con&#355;inutului acestui portal, iar cele nepotrivite vor fi respinse.";
+$locale['articles_0064'] = "Revenire la [SITENAME]";
 // Article messages
-$locale['articles_0100'] = "Article added";
-$locale['articles_0101'] = "Article updated";
-$locale['articles_0102'] = "Article deleted";
+$locale['articles_0100'] = "Articol ad&#259;ugat";
+$locale['articles_0101'] = "Articol actualizat";
+$locale['articles_0102'] = "Articol &#351;ters";
 // Category messages
-$locale['articles_0150'] = "Article Category added";
-$locale['articles_0151'] = "Article Category updated";
-$locale['articles_0152'] = "Article Category cannot be deleted";
-$locale['articles_0153'] = "There are Articles or Sub-Categories linked to this category";
-$locale['articles_0154'] = "Article Category deleted";
+$locale['articles_0150'] = "Categoria de articole a fost adaugat&#259;";
+$locale['articles_0151'] = "Categoria de articole a fost actualizat&#259;";
+$locale['articles_0152'] = "Categoria de articole nu poate fi &#351;tears&#259;";
+$locale['articles_0153'] = "Exist&#259; articole sau sub-categorii &#238;n aceast&#259; categorie";
+$locale['articles_0154'] = "Categoria de articole a fost &#351;tears&#259;";
 // Article form
-$locale['articles_0200'] = "Subject:";
-$locale['articles_0201'] = "Category:";
-$locale['articles_0202'] = "Snippet:";
-$locale['articles_0203'] = "Article:";
-$locale['articles_0204'] = "Keywords";
-$locale['articles_0204a'] = "Hit enter after each keywords";
-$locale['articles_0205'] = "Save as Draft";
-$locale['articles_0206'] = "Automatic Line-Breaks";
-$locale['articles_0207'] = "Enable Comments";
-$locale['articles_0208'] = "Enable Ratings";
-$locale['articles_0209'] = "Page Break";
-$locale['articles_0210'] = "[DRAFT]";
-$locale['articles_0211'] = "Visibility";
-$locale['articles_0240'] = "Preview Article";
-$locale['articles_0241'] = "Save Article";
-$locale['articles_0242'] = "Publish Article";
-$locale['articles_0243'] = "Delete Article";
+$locale['articles_0200'] = "Subiect:";
+$locale['articles_0201'] = "Categorie:";
+$locale['articles_0202'] = "Fragment:";
+$locale['articles_0203'] = "Articol:";
+$locale['articles_0204'] = "Cuvinte cheie";
+$locale['articles_0204a'] = "Apasa enter dupa fiecare cuvant";
+$locale['articles_0205'] = "Salveaz&#259; ca ciorn&#259;";
+$locale['articles_0206'] = "Aliniere automat&#259; pe r&#226;nduri";
+$locale['articles_0207'] = "Activeaz&#259; comentariile";
+$locale['articles_0208'] = "Activeaz&#259; vot&#259;rile";
+$locale['articles_0209'] = "Final pagin&#259;";
+$locale['articles_0210'] = "[CIORN&#258;]";
+$locale['articles_0211'] = "Vizibilitate";
+$locale['articles_0240'] = "Previzualizeaz&#259; articolul";
+$locale['articles_0241'] = "Salveaz&#259; articolul";
+$locale['articles_0242'] = "Public&#259; articolul";
+$locale['articles_0243'] = "&#350;terge articolul";
 // Popup Error/Warning Messages
-$locale['articles_0250'] = "Please specify a subject";
-$locale['articles_0251'] = "Delete this article?";
-$locale['articles_0252'] = "There are no Article Categories defined";
-$locale['articles_0253'] = "You must define at least one category before you can add any Articles";
-$locale['articles_0254'] = "Click here";
-$locale['articles_0255'] = " to go to Article Categories";
-$locale['articles_0256'] = "%s are disabled for all items.\n\rThis setting will only take effect when they are enabled again.";
-$locale['articles_0257'] = "Please specify keywords";
+$locale['articles_0250'] = "Te rog specifica un subiect";
+$locale['articles_0251'] = "Sterg acest articol?";
+$locale['articles_0252'] = "Nu exist&#259; categorii de articole definite";
+$locale['articles_0253'] = "Trebuie s&#259; define&#351;ti cel pu&#355;in o categorie &#238;nainte de a ad&#259;uga articole.";
+$locale['articles_0254'] = "Apas&#259; aici";
+$locale['articles_0255'] = " pentru a merge &#238;n Categorii de articole.";
+$locale['articles_0256'] = "%s: dezactivate pentru toate elementele.<br />Aceast&#259; setare va intra &#238;n vigoare numai atunci c&#226;nd acestea sunt activate din nou.";
+$locale['articles_0257'] = "Te rog specific&#259; cuvintele cheie";
 // Category form
-$locale['articles_0300'] = "Category Name:";
-$locale['articles_0301'] = "Category Description:";
-$locale['articles_0302'] = "Category Sorting:";
-$locale['articles_0303'] = "Article ID";
-$locale['articles_0304'] = "Article Subject";
-$locale['articles_0305'] = "Article Date";
-$locale['articles_0306'] = "Ascending";
-$locale['articles_0307'] = "Descending";
-$locale['articles_0308'] = "Category Parent:";
-$locale['articles_0309'] = "Save Category";
+$locale['articles_0300'] = "Nume categorie:";
+$locale['articles_0301'] = "Descriere categorie:";
+$locale['articles_0302'] = "Sortare categorii:";
+$locale['articles_0303'] = "ID articol";
+$locale['articles_0304'] = "Subiect articol";
+$locale['articles_0305'] = "Dat&#259; articol";
+$locale['articles_0306'] = "Cresc&#259;tor";
+$locale['articles_0307'] = "Descresc&#259;tor";
+$locale['articles_0308'] = "P&#259;rinte categorie:";
+$locale['articles_0309'] = "Salveaz&#259; categoria";
 // Current category options
-$locale['articles_0340'] = "Category";
-$locale['articles_0341'] = "Options";
+$locale['articles_0340'] = "Categorie";
+$locale['articles_0341'] = "Op&#355;iuni";
 $locale['edit'] = "Edit";
 $locale['delete'] = "Delete";
-$locale['articles_0342'] = "No Article Categories defined";
-$locale['articles_0343'] = "No Article defined";
+$locale['articles_0342'] = "Nu exist&#259; categorii de articole definite.";
+$locale['articles_0343'] = "Nu a fost ad&#259;ugat niciun articol";
 // Delete Article category
-$locale['articles_0350'] = "Delete this article category?";
+$locale['articles_0350'] = "Sterg aceasta categorie de articole?";
 // Error Messages
-$locale['articles_0351'] = "Please enter a category name.";
-$locale['articles_0352'] = "This category already exists.";
+$locale['articles_0351'] = "V&#259; rug&#259;m introduce&#355;i un nume de categorie.";
+$locale['articles_0352'] = "Aceast&#259; categorie exist&#259; deja.";
 ?>

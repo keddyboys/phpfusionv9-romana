@@ -13,10 +13,10 @@ $locale['download_0011'] = "Filtreaz&#259; dup&#259; categorie";"Filter show cat
 $locale['download_0020'] = "Categoriile actuale de desc&#259;rc&#259;ri";
 $locale['download_0021'] = "Editare categorii desc&#259;rc&#259;ri";
 $locale['download_0022'] = "Categorii de desc&#259;rc&#259;ri";
-$locale['download_0023'] = "Editor/administrator categorii desc&#259;rc&#259;ri";//"Downloads Category Editor";
+$locale['download_0023'] = "Editor/administrator categorii de desc&#259;rc&#259;ri";//"Downloads Category Editor";
 // Downloads submissions
 $locale['download_0039'] = "Revinire la [SITENAME]";
-$locale['download_0040'] = "Ne pare r&#259;u, deocamdat&#259; nu accept&#259;m trimiteri de desc&#259;rc&#259;rii pe acest sait.";
+$locale['download_0040'] = "Ne pare r&#259;u, deocamdat&#259; nu accept&#259;m trimiteri de desc&#259;rc&#259;rii.";
 $locale['download_0041'] = "Trimite o desc&#259;rcare"; // 650
 $locale['download_0042'] = "&#206;&#355;i mul&#355;umim pentru trimterea de desc&#259;rcare";
 $locale['download_0043'] = "Trimite o alt&#259; desc&#259;rcare";
