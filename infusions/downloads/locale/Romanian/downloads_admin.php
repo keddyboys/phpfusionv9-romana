@@ -13,7 +13,7 @@ $locale['download_0011'] = "Filtreaz&#259; dup&#259; categorie";"Filter show cat
 $locale['download_0020'] = "Categoriile actuale de desc&#259;rc&#259;ri";
 $locale['download_0021'] = "Editare categorii desc&#259;rc&#259;ri";
 $locale['download_0022'] = "Categorii de desc&#259;rc&#259;ri";
-$locale['download_0023'] = "Editor/administrator categorii de desc&#259;rc&#259;ri";//"Downloads Category Editor";
+$locale['download_0023'] = "Editor/administrator categorii de desc&#259;rc&#259;ri";
 // Downloads submissions
 $locale['download_0039'] = "Revinire la [SITENAME]";
 $locale['download_0040'] = "Ne pare r&#259;u, deocamdat&#259; nu accept&#259;m trimiteri de desc&#259;rc&#259;rii.";
@@ -25,13 +25,13 @@ $locale['download_0044'] = "Folose&#351;te acest formular pentru a trimite o des
 Trimiterile ar trebui s&#259; fie aplicabile con&#355;inutului acestui portal, iar cele nepotrivite vor fi respinse.";
 $locale['download_0045'] = "Trimite desc&#259;rcare";
 $locale['download_0046'] = "Trimiteri de desc&#259;rc&#259;rii";
-$locale['download_0047'] = "Este obligatorie captura de ecran?";//Required screenshot?
-$locale['download_0048'] = "Este obligatorie descrierea extins&#259;?";//Required full description?
+$locale['download_0047'] = "Este obligatorie captura de ecran?";
+$locale['download_0048'] = "Este obligatorie descrierea extins&#259;?";
 // Downloads submissions - admin
 $locale['download_0049'] = "Desc&#259;rc&#259;ri trimise";
 $locale['download_0050'] = "Nicio desc&#259;rcare &#238;n a&#351;teptarea verific&#259;rii.";
 $locale['download_0051'] = "Momentan sunt %s care a&#351;teapt&#259; s&#259; fie verificate.";
-$locale['download_0052'] = "Subiect verificare a trimiterilor";//Submission Subject for Review";
+$locale['download_0052'] = "Subiect verificare a trimiterilor";
 $locale['download_0053'] = "Autor trimitere";
 $locale['download_0054'] = "Data trimitere";
 $locale['download_0055'] = "Id trimitere";
@@ -52,7 +52,7 @@ $locale['download_0106'] = "Imaginea trebuie s&#259; ocupe mai pu&#355;in spa&#3
 $locale['download_0107'] = "Rezolu&#355;ia imaginii trebuie s&#259; fie mai mic&#259; dec&#226;t %s.";
 $locale['download_0108'] = "Fi&#351;ierul trebuie s&#259; aibe urm&#259;toare extensie: %s.";
 $locale['download_0109'] = "Imaginea trebuie s&#259; aib&#259; unul dintre tipurile urm&#259;toare de fi&#351;iere: %s.";
-$locale['download_0110'] = "Titlu desc&#259;rc&#259;rii nu poate fi gol0.";
+$locale['download_0110'] = "Titlu desc&#259;rc&#259;rii nu poate fi gol.";
 $locale['download_0111'] = "Fi&#351;ierul sau URL-ul c&#259;tre fi&#351;ier sunt obligatorii.";
 $locale['download_0112'] = "Descriere scurt&#259; nu poate fi l&#259;sat&#259; gol&#259;.";
 $locale['download_0113'] = "Eroare necunoscut&#259;";
@@ -67,7 +67,7 @@ $locale['download_0153'] = "Exist&#259; desc&#259;rc&#259;ri sau sub-categorii c
 $locale['download_0154'] = "Categorie desc&#259;rc&#259;ri &#351;tears&#259;";
 // Downloads form
 $locale['download_0200'] = "Titlu desc&#259;rcare:";
-$locale['download_0201'] = "Revizia total&#259; a desc&#259;rc&#259;rii";//Full review of downloads
+$locale['download_0201'] = "Revizia total&#259; a desc&#259;rc&#259;rii";
 $locale['download_0202'] = "Scurt&#259; descriere:";
 $locale['download_0202a'] = "Descriere:";
 $locale['download_0203'] = "Cuvinte cheie desc&#259;rcare:";
@@ -87,7 +87,7 @@ $locale['download_0215'] = "Leg&#259;tur&#259; desc&#259;rcare";
 $locale['download_0216'] = "&#350;terge";
 $locale['download_0217'] = "Calculeaz&#259; m&#259;rimea fi&#351;ierului";
 $locale['download_0218'] = "Dimensiune max. fi&#351;ier: %s / Tipuri de fi&#351;iere permise: %s";
-$locale['download_0219'] = "Dimensiune max. fi&#351;ier: %s <br />/Tipuri de fi&#351;iere permise: %s <br />/ L&#259;time max.: %spx, &#206;n&#259;l&#355;ime max.: %spx";
+$locale['download_0219'] = "Dimensiune max. fi&#351;ier: %s <br />/Tipuri de fi&#351;iere permise: %s <br />/ L&#259;&#355;ime max.: %spx, &#206;n&#259;l&#355;ime max.: %spx";
 $locale['download_0220'] = "Captur&#259; de ecran desc&#259;rcare:";
 $locale['download_0221'] = "Sait-ul autorului:";
 $locale['download_0222'] = "Copyright:";
@@ -128,16 +128,16 @@ $locale['download_0350'] = "Sterg aceasta categorie?";
 // Error Messages
 $locale['download_0351'] = "V&#259; rug&#259;m s&#259; introduce&#355;i un nume de categorie.";
 $locale['download_0352'] = "Aceast&#259; categorie exist&#259; deja.";
-$locale['604'] = "L&#259;&#355;ime  x &#206;n&#259;l&#355;ime";//"Width x Height";
+$locale['604'] = "L&#259;&#355;ime  x &#206;n&#259;l&#355;ime";
 // Downloads Settings
-$locale['930'] = "Dimensiune max. fi&#351;ier";//"Maximum size uploads:";
-$locale['931'] = "Dimensiune max. fi&#351;ier (bytes)";//"Maximum file size in bytes";
+$locale['930'] = "Dimensiune max. fi&#351;ier";
+$locale['931'] = "Dimensiune max. fi&#351;ier (bytes)";
 $locale['932'] = "Tipuri de fi&#351;iere acceptate:";
 $locale['933'] = "Separ&#259; fiecare tip cu virgul&#259;";
 $locale['934'] = "M&#259;rime captur&#259; de ecran:";
 $locale['935'] = "L&#259;&#355;ime  x &#206;n&#259;l&#355;ime";
 $locale['936'] = "M&#259;rime captur&#259; de ecran:";
 $locale['937'] = "M&#259;rime pictogram&#259; captur&#259; de ecran:";
-$locale['938'] = "Activez capturile de ecran?";//Enable screenshots
+$locale['938'] = "Activez capturile de ecran?";
 $locale['939'] = "Desc&#259;rc&#259;rii pe pagin&#259;";
 ?>
