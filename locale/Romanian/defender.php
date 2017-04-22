@@ -52,6 +52,15 @@ $locale['token_error_5'] = "Dat&#259; token invalid&#259;";//Invalid token dates
 $locale['token_error_6'] = "Postarea s-a f&#259;cut prea rapid";//Post was made too fast.";
 $locale['token_error_7'] = "Hash token invalid";//Invalid token hash.";
 $locale['token_error_8'] = "Format token invalid.";
+$locale['token_error_9'] = "Nu am putut g&#259;si niciun token pentru acest formular";//Cannot find any token for this form.";
+$locale['token_error_10'] = "Nu am putut g&#259;si niciun token pentru memorie ";//Cannot find any token for storage: ";
+
+$locale['df_300'] = "Apas&#259; pentru a ad&#259;uga fi&#351;iere";
+$locale['df_301'] = "Apas&#259; pentru a ad&#259;uga fotografii";
+$locale['df_302'] = "Apas&#259; pentru a ad&#259;uga fi&#351;iere video";
+$locale['df_303'] = "Apas&#259; pentru a ad&#259;uga fi&#351;iere audio";
+
+
 $locale['df_400'] = "%s con&#355;ine caractere invalide.";
 $locale['df_401'] = "%s nu este un e-mail valid.";
 $locale['df_402'] = "%s nu este o parol&#259; valid&#259;.";

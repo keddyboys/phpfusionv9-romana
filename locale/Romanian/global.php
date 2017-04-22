@@ -14,6 +14,7 @@ $locale['charset'] = "utf-8";
 $locale['region'] = "RO";
 $locale['xml_lang'] = "ro";
 $locale['tinymce'] = "ro";
+$locale['select2'] = "ro";
 $locale['phpmailer'] = "ro";
 $locale['datepicker'] = "ro-ro";
 // Full & Short Months
@@ -82,6 +83,7 @@ $locale['userf1'] = "Moderator";
 // Navigation
 $locale['global_001'] = "Navigare";
 $locale['global_002'] = "Nu exist&#259; leg&#259;turi definite.\n";
+$locale['global_003'] = "Nimic de previzualizat";
 // Users Online
 $locale['global_010'] = "Utilizatori conecta&#355;i";
 $locale['global_011'] = "Vizitatori  conecta&#355;i";
@@ -101,6 +103,7 @@ $locale['global_028'] = "&#206;ntreb&#259;i nerezolvate";
 // Comments Side panel
 $locale['global_025'] = "Ultimele comentarii";
 $locale['global_026'] = "Nu exist&#259; comentarii";
+$locale['global_027'] = "Comentariile au fost actualizate";
 // Articles Side panel
 $locale['global_030'] = "Cele mai noi articole";
 $locale['global_031'] = "Niciun articol disponibil";
@@ -322,7 +325,8 @@ $locale['global_465'] = "TO";
 $locale['global_500'] = "Vei fi redirec&#355;ionat la %s; te rog a&#351;teapt&#259;. Dac&#259; nu vei fi redirec&#355;ionat, apas&#259; aici.";
 // Captcha Locales
 $locale['global_600'] = "Cod de validare";
-$locale['recaptcha'] = "en";
+$locale['recaptcha'] = "ro";
+$locale['global_700'] = "Arat&#259; mai mult";
 //Miscellaneous
 $locale['global_900'] = "Hexazecimala nu a putut fi convertit&#259; &#238;n zecimal&#259;";
 //Language Selection
@@ -361,7 +365,7 @@ $locale['joined'] = "&#206;nscris din: ";
 $locale['next'] = "Urm&#259;ator";
 $locale['previous'] = "Anterior";
 $locale['back'] = "&#206;napoi";
-$locale['forward'] = "&#206;napoi";
+$locale['forward'] = "&#206;nainte";
 $locale['go'] = "Du-te";
 $locale['cancel'] = "Anuleaz&#259;";
 $locale['move_up'] = "Mut&#259; sus";
@@ -385,6 +389,15 @@ $locale['reactivate'] = "Reactiveaz&#259;";
 $locale['user'] = "Utilizator";
 $locale['promote'] = "Promoveaz&#259;";
 $locale['show'] = "Arat&#259;";
+// Persons & Identifiers
+$locale['you'] = "Tu";
+$locale['me'] = "Eu";
+$locale['they'] = "Ei";
+$locale['we'] = "Noi";
+$locale['us'] = "Noi";
+$locale['he'] = "El";
+$locale['she'] = "Ea";
+$locale['it'] = "Ei";
 //Tables
 $locale['status'] = "Statut";
 $locale['order'] = "Ordine";
@@ -406,6 +419,8 @@ $locale['status'] = "Status";
 $locale['note'] = "Pune o nota la acest articol";//Make a note of this item
 $locale['publish'] = "Publicat";
 $locale['unpublish'] = "Nepublicat";
+$locale['sticky'] = "Lipit&#259;";
+$locale['unsticky'] = "Nelipit&#259;";
 $locale['draft'] = "Ciorn&#259;";
 $locale['settings'] = "Set&#259;ri";
 $locale['posted'] = "postat";
@@ -423,6 +438,8 @@ $locale['browse'] = "Alege ...";
 $locale['close'] = "&#206;nchide";
 $locale['nopreview'] = "Nu este nimic de previzualizat";
 $locale['mark_as'] = "Marcheaz&#259; ca";
+$locale['preview'] = "Previzualizeaz&#259;";
+$locale['custom'] = "Personalizat";
 // Alignment
 $locale['left'] = "St&#226;nga";
 $locale['center'] = "Centru";

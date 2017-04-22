@@ -37,13 +37,13 @@ $locale['600'] = "Te rog editeaz&#259; fi&#351;ierul config.php &#351;i &#238;nl
 $locale['T001'] = "&#350;abloane e-mail";
 $locale['T101'] = "Notificare la un nou mesaj privat";
 $locale['T102'] = "Ai un nou mesaj privat de la [USER] care a&#351;teapt&#259; la [SITENAME]";
-$locale['T103'] = "Salut [RECEIVER],\r\nAi primit un nou mesaj primat cu titlul [SUBJECT] de la [USER] la [SITENAME]. &#206;&#355;i po&#355;i citi mesajul la [SITEURL]messages.php\r\n\r\nMesaj: [MESSAGE]\r\n\r\nDaca nu mai doresti sa primesti notificari la primirea de mesaje noi, poti dezactiva notificarile prin email cu ajutorul panoului de optiuni din pagina de mesaje private.\r\n\r\nCu respect,\r\n[SENDER].";
+$locale['T103'] = "Salut [RECEIVER],\r\nAi primit un nou mesaj privat cu titlul [SUBJECT] de la [USER] la [SITENAME]. &#206;&#355;i po&#355;i citi mesajul la [SITEURL]messages.php\r\n\r\nMesaj: [MESSAGE]\r\n\r\nDaca nu mai doresti sa primesti notificari la primirea de mesaje noi, poti dezactiva notificarile prin email cu ajutorul panoului de optiuni din pagina de mesaje private.\r\n\r\nCu respect,\r\n[SENDER].";
 $locale['T201'] = "Notificare la o nou&#259; postare &#238;n forum";
 $locale['T202'] = "Notificare r&#259;spuns discu&#355;ie - [SUBJECT]";
-$locale['setup_3806'] = "Salut [RECEIVER],\r\n\r\nUn nou r&#259;spuns a fost postat &#238;n discu&#355;ia \'[SUBJECT]\' urm&#259;rit&#259; de tine pe [SITENAME].Po&#355;i urma acesast&#259; leg&#259;tur&#259; pentru a vizualiza r&#259;spunsul:\r\n\r\n[THREAD_URL]\r\n\r\nDaca nu mai doresti sa urmaresti aceasta discutiepoti da click pe  \'Nu mai urmari aceasta discutie\' localizat in partea de sus a discutiei.\r\n\r\nCu respect,\r\n[SENDER].";
+$locale['T203'] = "Salut [RECEIVER],\r\n\r\nUn nou r&#259;spuns a fost postat &#238;n discu&#355;ia \'[SUBJECT]\' urm&#259;rit&#259; de tine pe [SITENAME].Po&#355;i urma acesast&#259; leg&#259;tur&#259; pentru a vizualiza r&#259;spunsul:\r\n\r\n[THREAD_URL]\r\n\r\nDaca nu mai doresti sa urmaresti aceasta discutiepoti da click pe  \'Nu mai urmari aceasta discutie\' localizat in partea de sus a discutiei.\r\n\r\nCu respect,\r\n[SENDER].";
 $locale['T301'] = "Formular de contact";
 $locale['T302'] = "[SUBJECT]";
 $locale['T303'] = "[MESSAGE]";
 $locale['UF'] = "Politica de confiden&#355;ialitate";
 $locale['SEO'] = "SEo";
-?>
+?>?>

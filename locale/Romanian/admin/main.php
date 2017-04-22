@@ -39,6 +39,7 @@ $locale['SL'] = "Leg&#259;turi site";
 $locale['SU'] = "Trimiteri";
 $locale['U'] = "Actualizare";
 $locale['UG'] = "Grupuri de utilizatori";
+$locale['UP'] = "Profile utilizatori";
 $locale['WC'] = "Categorii de leg&#259;turi pe internet";
 $locale['W'] = "Leg&#259;turi pe internet";
 $locale['S1'] = "Principale";
