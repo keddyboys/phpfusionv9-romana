@@ -17,6 +17,10 @@ $locale['tinymce'] = "ro";
 $locale['select2'] = "ro";
 $locale['phpmailer'] = "ro";
 $locale['datepicker'] = "ro-ro";
+$locale['datepicker_js'] = "M-DD-YYYY H:mm:ss";
+$locale['datepicker_php'] = "m-d-Y H:i:s";
+$locale['password_strength'] = "ro";
+
 // Full & Short Months
 $locale['months'] = "&nbsp|Ianuarie|Februarie|Martie|Aprilie|Mai|Iunie|Iulie|August|Septembrie|Octombrie|Noiembrie|Decembrie";
 $locale['shortmonths'] = "&nbsp|Ian|Feb|Mar|Apr|Mai|Iun|Iul|Aug|Sept|Oct|Nov|Dec";
@@ -46,6 +50,7 @@ $locale['sel_state'] = "Selecteaz&#259; provincia";
 $locale['sel_user'] = "Te rog alege un utilizator";
 $locale['add_language'] = "Adaug&#259; o traducere";
 $locale['add_lang'] = "Adaug&#259; %s";
+$locale['other_states'] = "Alte state";
 // Name
 $locale['name'] = "Numele &#206;ntreg";
 $locale['username_pretext'] = "Utilizatorul t&#259;u public este acela&#351;i ca adresa localizat&#259; la: %s %s";
@@ -92,6 +97,7 @@ $locale['global_013'] = "Niciun membru conectat";
 $locale['global_014'] = "Membri &#238;nregistra&#355;i";
 $locale['global_015'] = "Membri neactiva&#355;i";
 $locale['global_016'] = "Cel mai nou membru";
+$locale['global_017'] = "Comutare navigare";//"Toggle Navigation";
 // Forum Side panel
 $locale['global_020'] = "Discu&#355;ii &#238;n forum";
 $locale['global_021'] = "Cele mai noi discu&#355;ii";
@@ -103,7 +109,6 @@ $locale['global_028'] = "&#206;ntreb&#259;i nerezolvate";
 // Comments Side panel
 $locale['global_025'] = "Ultimele comentarii";
 $locale['global_026'] = "Nu exist&#259; comentarii";
-$locale['global_027'] = "Comentariile au fost actualizate";
 // Articles Side panel
 $locale['global_030'] = "Cele mai noi articole";
 $locale['global_031'] = "Niciun articol disponibil";
@@ -135,7 +140,6 @@ $locale['global_058'] = "Opre&#351;te";
 $locale['global_059'] = "Nu urm&#259;re&#351;ti nici o discu&#355;ie";
 $locale['global_060'] = "Opresc urm&#259;rirea acestei discu&#355;ii?";
 // Blog, News & Articles
-
 $locale['global_070'] = "Postat de ";
 $locale['global_070b'] = "Vizualizeaz&#259; toate post&#259;rile lui %s";
 $locale['global_071'] = "la ";
@@ -183,9 +187,10 @@ $locale['global_105'] = "&#206;nc&#259; nu e&#351;ti membru?[LINK]<br />&#206;nr
 $locale['global_106'] = "[LINK]&#354;i-ai uitat parola?[/LINK]";
 $locale['global_107'] = "&#206;nregistrare";
 $locale['global_108'] = "Parola pierdut&#259;";
+$locale['global_109'] = "&#206;nregistrare";
 // Member User Menu
 $locale['global_120'] = "Editare profil";
-$locale['global_121'] = "mesaj privat";
+$locale['global_121'] = "Mesaje private";
 $locale['global_122'] = "Lista de membri";
 $locale['global_123'] = "Panoul de administrare";
 $locale['global_124'] = "Deconectare";
@@ -195,6 +200,7 @@ $locale['global_127'] = "mesaje noi";
 $locale['global_128'] = "trimitere";
 $locale['global_129'] = "trimiteri";
 // User Menu
+
 $locale['UM060'] = "Conectare";
 $locale['UM061'] = "Utilizator";
 $locale['UM061a'] = "Email";
@@ -202,8 +208,10 @@ $locale['UM061b'] = "Utilizator sau email";
 $locale['UM062'] = "Parol&#259;";
 $locale['UM063'] = "Re&#355;ine-m&#259;";
 $locale['UM064'] = "Conectare";
-$locale['UM065'] = "&#206;nc&#259; nu e&#351;ti membru?[LINK]&#206;nregistreaz&#259;-te[/LINK]";
-$locale['UM066'] = "&#354;i-ai uitat parola?\n[LINK]Solicit&#259; una nou&#259;[/LINK]";
+$locale['UM065'] = "&#206;nc&#259; nu e&#351;ti membru?[LINK]<br />&#206;nregistreaz&#259;-te[/LINK]";
+$locale['UM066'] = "&#354;i-ai uitat parola?\n[LINK]<br />Solicit&#259; una nou&#259;[/LINK]";
+//$locale['UM067'] = "(not recommended on public or shared computer)";
+$locale['UM067'] = "(nu este recomandat pe calculatoare publice)";
 $locale['UM080'] = "Editare profil";
 $locale['UM081'] = "Mesaje private";
 $locale['UM082'] = "Lista de membri";
@@ -221,6 +229,7 @@ $locale['UM092'] = "Trimite un articol";
 $locale['UM093'] = "Trimite o imagine";
 $locale['UM094'] = "Trimite o desc&#259;rcare";
 $locale['UM095'] = "Trimite o postare pe blog";
+$locale['UM102'] = "Trimite o &#238;ntrebare frecvent&#259;";
 // User Panel
 $locale['UM096'] = "Bun venit: ";
 $locale['UM097'] = "Meniul t&#259;u";//Personal menu
@@ -241,7 +250,7 @@ $locale['global_172'] = "Pagin&#259; generat&#259; &#238;n %s secunde";
 $locale['global_173'] = "interog&#259;ri";
 $locale['global_174'] = "Memorie utilizat&#259;";
 $locale['global_175'] = "Medie: %s secunde";
-
+$locale['global_176'] = "Politica de confiden&#355;ialitate";
 // Admin Navigation
 $locale['global_180'] = "Index administrare";
 $locale['global_181'] = "Revenire la sait";
@@ -257,7 +266,7 @@ $locale['global_196'] = "Nume sau parol&#259; incorecte.";
 $locale['global_197'] = "Te rog a&#351;teapt&#259; transferul...\n\n
 [ [LINK]Sau apas&#259; aici dac&#259; nu dore&#351;ti s&#259; a&#351;tep&#355;i[/LINK] ]";
 $locale['global_198'] = "Aten&#355;ie: Fi&#351;ierul de instalare a fost detectat. Te rog &#351;terge-l imediat directorul /INSTALL/.";
-$locale['global_199'] = "WARNING: admin password not set, click [LINK]Edit Profile[/LINK] to set it.";
+//$locale['global_199'] = "WARNING: admin password not set, click [LINK]Edit Profile[/LINK] to set it.";
 $locale['global_199'] = "Aten&#355;ie: parola de administrare nu este setat&#259;, apas&#259; [LINK]aici[LINK] pentru a o seta.";
 //Titles
 $locale['global_200'] = " - ";
@@ -325,14 +334,17 @@ $locale['global_465'] = "TO";
 $locale['global_500'] = "Vei fi redirec&#355;ionat la %s; te rog a&#351;teapt&#259;. Dac&#259; nu vei fi redirec&#355;ionat, apas&#259; aici.";
 // Captcha Locales
 $locale['global_600'] = "Cod de validare";
+$locale['global_601'] = "Trebuie s&#259; introduci un cod de validare corect";
 $locale['recaptcha'] = "ro";
 $locale['global_700'] = "Arat&#259; mai mult";
 //Miscellaneous
 $locale['global_900'] = "Hexazecimala nu a putut fi convertit&#259; &#238;n zecimal&#259;";
+$locale['global_901'] = "Adaug&#259; media";//Insert media
 //Language Selection
 $locale['global_ML100'] = "Limba:";
 $locale['global_ML101'] = "- Selecteaz&#259; limba -";
 $locale['global_ML102'] = "Limba site-ului";
+$locale['global_ML103'] = "Schimb&#259; limba";
 // Flood Control
 $locale['flood'] = "&#206;&#355;i este interzis&#259; postarea p&#226;n&#259; perioada de flood. Te rog a&#351;teapt&#259; %s.";// You are barred to post until the flood period cooldown is over
 $locale['no_image'] = "Nicio imagine";
@@ -376,6 +388,7 @@ $locale['load_end'] = "&#206;ncarc&#259; de la &#206;nceput";
 $locale['add'] = "Adaug&#259;";
 $locale['save'] = "Salveaz&#259;";
 $locale['save_changes'] = "Salveaz&#259; schimb&#259;rile";
+$locale['save_and_close'] = "Salveaz&#259; &#351;i &#238;nchide";
 $locale['confirm'] = "Confirm&#259;";
 $locale['update'] = "Actualizeaz&#259;";
 $locale['updated'] = "Actualizat";
@@ -389,6 +402,8 @@ $locale['reactivate'] = "Reactiveaz&#259;";
 $locale['user'] = "Utilizator";
 $locale['promote'] = "Promoveaz&#259;";
 $locale['show'] = "Arat&#259;";
+$locale['actions'] = "Ac&#355;iuni";
+$locale['language'] = "Limba";
 // Persons & Identifiers
 $locale['you'] = "Tu";
 $locale['me'] = "Eu";
@@ -399,7 +414,6 @@ $locale['he'] = "El";
 $locale['she'] = "Ea";
 $locale['it'] = "Ei";
 //Tables
-$locale['status'] = "Statut";
 $locale['order'] = "Ordine";
 $locale['sort'] = "Sorteaz&#259;";
 $locale['id'] = "ID";
@@ -414,7 +428,7 @@ $locale['root'] = "Ca p&#259;rinte";
 $locale['choose-user'] = "Te rog alege un utilizator...";
 $locale['choose-location'] = "Te rog alege o loca&#355;ie";
 $locale['parent'] = "Creaz&#259; ca &#351;i p&#259;rinte..";
-$locale['order'] = "Ordine articole";
+$locale['item_order'] = "Ordine articole";//Item Ordering";
 $locale['status'] = "Status";
 $locale['note'] = "Pune o nota la acest articol";//Make a note of this item
 $locale['publish'] = "Publicat";
@@ -440,6 +454,7 @@ $locale['nopreview'] = "Nu este nimic de previzualizat";
 $locale['mark_as'] = "Marcheaz&#259; ca";
 $locale['preview'] = "Previzualizeaz&#259;";
 $locale['custom'] = "Personalizat";
+$locale['submit'] = "Trimite";
 // Alignment
 $locale['left'] = "St&#226;nga";
 $locale['center'] = "Centru";
@@ -484,6 +499,10 @@ $locale['fmt_views'] = "vizualiz&#259;ri|vizualizare";
 $locale['fmt_weblink'] = "leg&#259;turi de internet|leg&#259;tur&#259; de internet";
 $locale['fmt_week'] = "s&#259;pt&#259;m&#226;ni|s&#259;pt&#259;m&#226;n&#259;";
 $locale['fmt_year'] = "ani|an";
+$locale['fmt_points'] = "puncte|punct";
+$locale['fmt_admin'] = "admini|admin";
+$locale['fmt_group'] = "grupuri|grup";
+$locale['fmt_category'] = "categorii|categorie";
 // include Defender locales
 include __DIR__."/defender.php";
 ?>

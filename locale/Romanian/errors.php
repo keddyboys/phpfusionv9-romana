@@ -1,5 +1,6 @@
 <?php
 // Error Levels Desciption
+$locale['err_103'] = "{%function%} {%folder%} does not exists.";
 $locale['E_ERROR'] = "Eroare major&#259;, care opre&#351;te execu&#355;ia scripturilor";
 $locale['E_WARNING'] = "Eroare medie din timpul execu&#355;iei scripturilor";
 $locale['E_PARSE'] = "Eroare generat&#259; de interpretor";
@@ -16,4 +17,5 @@ $locale['E_STRICT'] = "";
 $locale['err_100'] = "necunoscut&#259;";
 $locale['err_101'] = "ATEN&#354;IE:O eroare a fost &#238;mpinat&#259; la procesarea paginii. Te rog uit&#259;-te &#238;n [ERROR_LOG_URL]jurnalul de erori[/ERROR_LOG_URL] PHP-Fusion pentru detalii.";
 $locale['err_102'] = "Arat&#259;-mi eroarea!";
+$locale['err_103'] = "{%function%} {%folder%} nu exist&#259;.";
 ?>

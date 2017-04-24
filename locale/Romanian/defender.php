@@ -1,7 +1,7 @@
 <?php
-$locale['validate'] = "Te rog verific&#259; c&#226;mpul.";
-$locale['error_request'] = "A intervenit o eroare &#238;n timpul proces&#259;rii cererii tale";//There was an error while processing your request"; 
-$locale['regex_error'] = "Te rog verific&#259; c&#226;mpurile %s"; // to be moved
+$locale['validate'] = "Please check and revalidate the field.";
+$locale['error_request'] = "There was an error while processing your request"; // to be moved
+$locale['regex_error'] = "Please check and revalidate the %s field"; // to be moved
 // Text fields errors
 $locale['error_input_default'] = "Te rog completa&#355;i acest c&#226;mp";
 $locale['error_input_password'] = "Te rog introdu o parol&#259; valid&#259;";
@@ -11,10 +11,12 @@ $locale['error_input_url'] = "Te rog introdu un URL valid";
 $locale['error_input_regex'] = "Te rog introdu un &#351;ablon valid";// pattern sau model?
 $locale['error_input_safemode'] = "Te rog completeaz&#259; acest c&#226;mp corect";
 $locale['error_input_check'] = "Te rog completeaz&#259; acest &#226;mp cu o valoare corect&#259;";//Please fill out a correct field value";
-$locale['df_error_text'] = "%s este eronat &#351;i necesit&#259; aten&#355;ia ta";//has error and requires your attention.";
+$locale['df_error_text'] = "%s are o eroare &#351;i necesit&#259; aten&#355;ia ta";//has error and requires your attention.";
 $locale['error_invalid_theme'] = "Te rog selecteaz&#259; o tematic&#259; valid&#259;"; // to be moved
 $locale['error_input_checkbox'] = "Te rog bifeaz&#259; aceast&#259; casu&#355;&#259;";//Please tick this checkbox";
 $locale['error_input_file'] = "Te rog selecteaz&#259; un fi&#351;ier valid";
+//$locale['error_secure_file'] = "The uploaded file has been rejected due to possibility of malicious payload.";
+$locale['error_secure_file'] = "Fi&#351;ierul &#238;nc&#259;rcat a fost respins din cauza posibilelor coduri mali&#355;ioase.";
 // Admin Login
 $locale['cookie_title'] = "Sesiunea a expirat";
 $locale['cookie_description'] = "Nu exist&#259; nicio autentificare valid&#259; / sau sesiunea ta probabil a expirat. Te rog conecteaz&#259;-te din nou.";
@@ -59,7 +61,7 @@ $locale['df_300'] = "Apas&#259; pentru a ad&#259;uga fi&#351;iere";
 $locale['df_301'] = "Apas&#259; pentru a ad&#259;uga fotografii";
 $locale['df_302'] = "Apas&#259; pentru a ad&#259;uga fi&#351;iere video";
 $locale['df_303'] = "Apas&#259; pentru a ad&#259;uga fi&#351;iere audio";
-
+$locale['df_304'] = "&#350;terge fi&#351;ierele selectate";//Selected file Remove";
 
 $locale['df_400'] = "%s con&#355;ine caractere invalide.";
 $locale['df_401'] = "%s nu este un e-mail valid.";
@@ -79,10 +81,10 @@ $locale['df_423'] = "Imaginea nu a fost &#238;nc&#259;rcat&#259; corespunz&#259;
 $locale['df_424'] = "Fi&#351;ierele &#238;nc&#259;rcate au dep&#259;&#351;it limita maxim&#259;. Te rog &#238;ncearc&#259; din nou &#351;i ata&#351;eaz&#259; mai putine fi&#351;iere.";
 // ReCaptcha2
 $locale['grecaptcha'] = "Google Recaptcha";
-$locale['grecaptcha_desc'] = "C&#226;mpuri Google Recaptcha";//Google Recaptcha Field Module";
-$locale['grecaptcha_placeholder_1'] = "SITE KEY de la Google";
-$locale['grecaptcha_placeholder_2'] = "SECRET-KEY de la  Google";
-$locale['no_keys'] = "Se pare c&#259; &#238;nc&#259; nu ai nicio cheie. &#206;nregistreaz&#259;-te &#351;i ob&#355;ine cheia publc&#259; [RECAPTCHA_LINK]aici[/RECAPTCHA_LINK]";
+$locale['grecaptcha_desc'] = "Google Recaptcha Field Module";
+$locale['grecaptcha_placeholder_1'] = "SITE KEY from Google";
+$locale['grecaptcha_placeholder_2'] = "SECRET-KEY from Google";
+$locale['no_keys'] = "It looks like you don't have any keys yet. Register and obtain your [RECAPTCHA_LINK]public key here[/RECAPTCHA_LINK]";
 // here
 //$locale['review_keys'] = "<a href='https://www.google.com/recaptcha/admin' target='_BLANK'><button class='button'>Review your keys at Google reCAPTCHA</button></a>";
 $locale['grecaptcha_0100'] = "Cheie public&#259;";
@@ -94,3 +96,4 @@ $locale['grecaptcha_0103'] = "Tip validare";
 $locale['grecaptcha_0103a'] = "Text";
 $locale['grecaptcha_0103b'] = "Audio";
 $locale['grecaptcha_warn'] = "Te rog introdu cheia ta public&#259; &#351;i privat&#259; reCAPTCHA";
+?>

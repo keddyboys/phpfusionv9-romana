@@ -14,4 +14,5 @@ Pentru schimbarea parolei, te rog apasa pe urmatoarea legatura:\n[NEW_PASS_LINK]
 $locale['411'] = "Salut [USER_NAME],\nNoua ta parola de acces pentru contul la [SITENAME] este:\n
 [NEW_PASS]\n\nCu respect,\n[SITEUSERNAME]";
 $locale['412'] = "A fost &#238;nt&#226;mpinat&#259; o eroare, &#238;ncearc&#259; din nou.";
+$locale['413'] = "Te rog introdu adresa ta de e-mail:";
 ?>

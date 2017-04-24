@@ -134,4 +134,14 @@ $locale['629'] = "Nu po&#355;i muta selec&#355;ia &#238;n folderul specificat, d
 $locale['630'] = " Limit&#259; de mesaje";
 $locale['631'] = "Da";
 $locale['632'] = "Nu";
+/*
+$locale['700'] = "User inbox is full. Try delete it or upgrade it to 102 or 103 status";
+$locale['701'] = "Sender User ID does not exist in DB. Sequence Aborted.";
+$locale['702'] = "Message Recepient User ID is invalid";
+$locale['703'] = "You are flooding, send_pm halted";
+*/
+$locale['700'] = "Inboxul utilizatorului este plin. &#206;ncearc&#259; s&#259; &#351;tergi mesaje sau promoveaz&#259; utilizatorul la Administrator sau Super Administrator";
+$locale['701'] = "ID utilizator nu exist&#259; &#238;n baza de date. Secven&#355;&#259; anulat&#259;.";
+$locale['702'] = "ID utilizator receptor este invalid";
+$locale['703'] = "Tu floodezi, send_pm oprit";
 ?>

@@ -1,6 +1,6 @@
 <?php
-$locale['400'] = "C&#259;utare ".fusion_get_settings('sitename');
-$locale['401'] = "Caut&#259;:";
+$locale['400'] = "C&#259;utare [SITENAME]";
+$locale['401'] = "Caut&#259; cuvinte cheie";
 $locale['402'] = "Caut&#259;";
 $locale['403'] = "caut&#259; oricare din aceste cuvinte";
 $locale['404'] = "rezultate care con&#355;in toate aceste cuvinte";
@@ -26,6 +26,7 @@ $locale['440'] = "Sorteaz&#259; dup&#259;:";
 $locale['441'] = "data ad&#259;ug&#259;rii";
 $locale['442'] = "titlu";
 $locale['443'] = "autor";
+//
 $locale['450'] = "descresc&#259;tor";
 $locale['451'] = "cresc&#259;tor";
 //characters in results

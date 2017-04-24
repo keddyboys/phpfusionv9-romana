@@ -164,7 +164,7 @@ $locale['currency'] = array(
 	"ZAR" => "South African Rand",
 	"ZMK" => "Zambian Kwacha",
 	"ZWD" => "Zimbabwe Dollar",
-	"NA" => "Not Available",
+	"NA" => "Indisponibil",
 );
 
 $locale['currency_symbol'] = array(

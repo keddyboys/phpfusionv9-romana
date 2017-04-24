@@ -41,12 +41,6 @@ $locale['u103'] = "Profil";
 $locale['u104'] = "Profil membru pentru";
 $locale['u105'] = "Actualizeaz&#259; profilul";
 
-// View User Groups
-$locale['u110'] = "Vezi grupul de utilizatori";
-$locale['u111'] = "%u utilizator";
-$locale['u112'] = "%u utilizatori";
-$locale['u113'] = "Nume utilizatori";
-$locale['u114'] = "Tip utilizator";
 // New UF 1.20
 $locale['uf_100'] = "Set&#259;ri cont generale";
 $locale['uf_101'] = "Set&#259;i informa&#355;i utilizatori";
@@ -57,6 +51,15 @@ $locale['uf_105'] = "Imagine profil";
 $locale['uf_106'] = "Informa&#355;i de baz&#259;";
 $locale['uf_107'] = "%s nu are nicio informa&#355;ie disponibil&#259;.";
 $locale['uf_108'] = "Nu este definit niciun c&#238;mp de utilizatori";
+
+// View User Groups
+$locale['u110'] = "Vezi grupul de utilizatori";
+$locale['u111'] = "%u utilizator";
+$locale['u112'] = "%u utilizatori";
+$locale['u113'] = "Nume utilizatori";
+$locale['u114'] = "Tip utilizator";
+$locale['u115'] = "Limb&#259;";
+$locale['u116'] = "Nu exist&#259; niciun membru &#238;n grup.";// There are no group members.";
 
 // User name and email
 $locale['u120'] = "Numele de utilizator con&#355;ine caractere nevalide.";
@@ -141,6 +144,8 @@ $locale['u190'] = "Cod de validare";
 $locale['u191'] = "Introdu codul de validare";
 $locale['u192'] = "Termeni de utilizare";
 $locale['u193'] = "Am citit [LINK]Acordul de utilizare[/LINK] &#351;i sunt de acord cu acesta.";
+$locale['u193a'] = "Actualizat";
+$locale['u193b'] = "Sunt de acord";
 $locale['u194'] = "Cod de validare incorect.";
 $locale['u195'] = "C&#226;mpul codului captcha nu poate fi l&#259;sat gol.";
 
@@ -156,4 +161,6 @@ Nota: trebuie sa fii conectat pentru continuare.\n
 Cu respect,
 [SITEUSERNAME]\n\r
 [SITENAME]";
+
+$locale['u210'] = "Reputa&#355;ie utilizator";
 ?>
