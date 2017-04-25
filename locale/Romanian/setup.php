@@ -1,10 +1,9 @@
 <?php
 // Index
 $locale['setup_0000'] = "Instalarea versiunii 9.0 a nucleului PHP-Fusion";
-$locale['setup_0001'] = "Instalarea versiunii 9.0 a nucleului PHP-Fusion";
 $locale['setup_0002'] = "Bine ai venit la instalarea v9.0 a PHP-Fusion";
 $locale['setup_0003'] = "Ghidul de instalare te va ghida prin pa&#351;i necesari inst&#259;ri versiunii 9.0 a CMS-ului PHP-Fusion pe serverul t&#259;u.<br /> Dac&#259; ai nevoie de ajutor, te rug&#259;m verific&#259; <a class='strong' href='https://php-fusion.co.uk/infusions/wiki/documentation.php?page=208' target='_blank'>procesul de instalare</a>.";
-$locale['setup_0005'] = " Am citit &#351;i sunt de acord cu termenii &#351;i condi&#355;iile <a href='https://php-fusion.co.uk/license/' target='_blank'>Php-Fusion</a> > ";
+$locale['setup_0005'] = " Am citit &#351;i sunt de acord cu termenii &#351;i condi&#355;iile <a href='https://php-fusion.co.uk/license/' target='_blank'>Php-Fusion</a>";
 $locale['setup_0006'] = "PHP-Fusion 9 necesit&#259; cel pu&#355;in PHP 5.5.9. Vezi pagina <a href=\"https://www.php-fusion.co.uk/requirements\">cerin&#355;e sistem</a> pentru mai multe informa&#355;i.";
 $locale['setup_0007'] = "Sistemele cu OPcache instalat trebuie s&#259; aibe <a href=\"http://php.net/manual/en/opcache.configuration.php#ini.opcache.save-comments\">opcache.save_comments</a> activat.";
 $locale['setup_5000'] = "Pentru a putea folosi PHP-Fusion, trebuie s&#259; bifezi &#351;i s&#259; fii de acord cu termenii &#351;i condi&#355;iile PHP-Fusion</a>.";
@@ -97,16 +96,7 @@ $locale['setup_1090'] = "Fi&#351;iere";
 $locale['setup_1091'] = "Statut";
 $locale['setup_1092'] = "Drivere &#351;i configura&#355;ie baza de date";//Database Configurations and Driver";
 $locale['setup_1106'] = "Diagnostic server &#351;i structur&#259; fi&#351;iere necesare";//Server and File Structure Requirements Diagnostics";
-/*
-// Step 2
-$locale['setup_1100'] = "Trecut";
-$locale['setup_1101'] = "E&#351;uat";
-$locale['setup_1102'] = "Pentru ca instalarea s&#259; continue, urm&#259;toarele fi&#351;iere/directoare<br />trebuie s&#259; aib&#259; permisiuni de <span class='label label-success'>scriere</span>";
-$locale['setup_1103'] = "Verificarea permisiunilor de scriere a trecut testul.";
-$locale['setup_1104'] = "Verificarea permisiunilor de scriere <span style='color:red;font-weight:bold'>a e&#351;uat</span>. Te rog asigur&#259;-te c&#259; ai schimbat atributele necesare fi&#351;ierelor/directoarelor.";
-$locale['setup_1105'] = "Re&#238;ncarc&#259;";
-$locale['setup_1106'] = "Testul permisiunilor pentru fi&#351;iere";
-*/
+
 // Step 3 - Access criteria
 $locale['setup_1200'] = "Set&#259;ri baz&#259; de date";
 $locale['setup_1201'] = "Te rog introdu set&#259;rile de acces la baza de date.";
@@ -129,7 +119,7 @@ $locale['setup_1211'] = "Noua instalare PHP-Fusion complet&#259;. Te rog mergi l
 $locale['setup_1212'] = "Configurare sait &#351;i Super Administrator";
 $locale['setup_1213'] = "Detalii informa&#355;i sait";
 $locale['setup_1214'] = "Nume sait";
-$locale['setup_1215'] = "PHP-Fusion Powered Website";
+$locale['setup_1215'] = "Saitul t&#259;u motorizat de PHP-Fusion";
 //$locale['setup_1216'] = "PHP-Fusion is a lightweight open source content management system (CMS) written in PHP.";
 $locale['setup_1216'] = "PHP-Fusion este un sistem integrat de gestiune a conţinutului(CMS) de categorie u&#351;oar&#259; scris &#238;n PHP.";
 $locale['setup_1217'] = "Contul t&#259;u a fost actualizat. Te rog folose&#351;te noile creden&#355;iale de acum &#238;ncolo ";//Please use the new credentials from now on.";
@@ -137,7 +127,7 @@ $locale['setup_1220'] = "Numele bazei de date &#238;n care dore&#351;ti rularea 
 $locale['setup_1221'] = "Utilizator MYSQL";
 $locale['setup_1222'] = "...&#351;i parol&#259; MYSQL";
 $locale['setup_1223'] = "F&#259; acesta foarte unic pentru a securiza baza ta de date";//Make this very unique to secure your database";
-$locale['setup_1224'] = "Prefix Browser Cookie Identifier";//"Browser Cookie Identifier Prefix";
+$locale['setup_1224'] = "Identificator prefix cookie pentru Browser";//"Browser Cookie Identifier Prefix";
 $locale['setup_1307'] = "Te rog verific&#259; permisiunile de scriere ale fi&#351;ierului config.php.";
 $locale['setup_1310'] = "Conexiunea cu serverul MySQL nu a fost stabilit&#259;.";
 $locale['setup_1311'] = "Baza de date specificat&#259; nu exist&#259;.";
@@ -146,45 +136,6 @@ $locale['setup_1313'] = "Prefixul tabelelor este deja folosit. Niciun tabel nu v
 $locale['setup_1315'] = "Te rog asigur&#259;-te c&#259; utilizatorul are drepturi de citire, scriere &#351;i &#351;tergere pentru baza de date selectat&#259;.";
 $locale['setup_1317'] = "Te rog asigur&#259;-te c&#259; ai completat toate c&#226;mpurile pentru baza de date.";
 
-// Step 4 - Database Setup
-/*
-$locale['setup_1300'] = "Conexiunea cu baza de date a fost stabilit&#259;.";
-$locale['setup_1301'] = "Fi&#351;ierul de configurare a fost scris cu succes.";
-$locale['setup_1302'] = "Tabelele bazei de date au fost create.";
-$locale['setup_1303'] = "Eroare:";
-$locale['setup_1304'] = "Conexiunea cu baza de date nu a fost stabilit&#259;";
-$locale['setup_1305'] = "Va rog verifica&#355;i set&#259;rile MySQL.";
-$locale['setup_1306'] = "Nu am putut scrie &#238;n fi&#351;ierul de configurare.";
-$locale['setup_1307'] = "Te rog verific&#259; permisiunile de scriere ale fi&#351;ierului config.php.";
-$locale['setup_1308'] = "Tabelele bazei de date nu au putut fi create.<br><br>.";
-$locale['setup_1309'] = "Te rog specific&#259; numele bazei de date.";
-$locale['setup_1310'] = "Conexiunea cu serverul MySQL nu a fost stabilit&#259;.";
-$locale['setup_1311'] = "Baza de date specificat&#259; nu exist&#259;.";
-$locale['setup_1312'] = "Prefix folosit";
-$locale['setup_1313'] = "Prefixul tabelelor este deja folosit.";
-$locale['setup_1314'] = "Nu am putut scrie sau &#351;terge tabelele.";
-$locale['setup_1315'] = "Te rog asigur&#259;-te c&#259; utilizatorul are drepturi de citire, scriere &#351;i &#351;tergere pentru baza de date selectat&#259;.";
-$locale['setup_1316'] = "C&#226;mpuri goale.";
-$locale['setup_1317'] = "Te rog asigur&#259;-te c&#259; ai completat toate c&#226;mpurile pentru baza de date.";
-*/
-// Step 5
-$locale['setup_1510'] = "Website Email address:";
-$locale['setup_1511'] = "Select Website Region:";
-$locale['setup_1512'] = "Site Language Installations:";
-$locale['setup_1513'] = "Site Owner Name";
-
-/*$locale['setup_1400'] = "Te rog configureaz&#259;-&#355;i sistemul principal.";
-$locale['setup_1401'] = "IMPORTANT: &#206;nainte de a continua f&#259;-&#355;i o copie de siguran&#355;&#259;. &#350;tergerea unei infuzii va &#351;terge deasemenea &#351;i toate &#238;nregistr&#259;rile.";
-$locale['setup_1402'] = "Sistem principal preg&#259;tit.";
-$locale['setup_1403'] = "Site-ul t&#259;u nu este configurat complet.<br/><br/>Dac&#259; nu &#355;i-ai configurat contul de Super Administrator deja, te rog continu&#259; cu urm&#259;torul pas, 
-altfel, po&#355;i &#351;terge folderul install.";
-$locale['setup_1404'] = "Instaleaz&#259;";
-$locale['setup_1405'] = "Dezinstaleaz&#259;";
-$locale['setup_1406'] = "infuzia %s a fost instalat&#259; cu succes.";
-$locale['setup_1407'] = "infuzia %s a e&#351;uat instalarea.";
-$locale['setup_1408'] = "infuzia %s a fost &#351;tears&#259; cu succes.";
-$locale['setup_1409'] = "infuzia %s nu poate fi &#351;stears&#259; sau a e&#351;uat.";
-*/
 // Step 6 - Super Admin login
 $locale['setup_1500'] = "Date de conectare Super Administrator principal";
 $locale['setup_1501'] = "Configureaz&#259;-&#355;i contul de Super Administrator.";
@@ -247,7 +198,9 @@ $locale['setup_3031'] = "Dat&#259; &#351;i timp";
 $locale['setup_3033'] = "&#206;nregistrare";
 $locale['setup_3035'] = "Set&#259;ri secundare";
 $locale['setup_3036'] = "Mesaje private";
+$locale['setup_3037'] = "C&#226;mpuri utilizatori";
 $locale['setup_3038'] = "Ranguri &#238;n forum";
+$locale['setup_3041'] = "Management utilizatori";
 $locale['setup_3044'] = "Securitate";
 $locale['setup_3047'] = "Schimbare parol&#259; de administrare";
 $locale['setup_3048'] = "Jurnal de erori";
@@ -259,9 +212,7 @@ $locale['setup_3055'] = "Blog";
 $locale['setup_3056'] = "Cuntomiz&#259;ri tematici";
 $locale['setup_3057'] = "Utilitar de migrare";//Migration Tool";
 $locale['setup_3058'] = "Set&#259;ri tematic&#259;";
-
 //Multilanguage table rights
-
 $locale['setup_3200'] = "Articole";
 $locale['setup_3201'] = "Pagini personalizate";
 $locale['setup_3202'] = "Desc&#259;rc&#259;ri";
@@ -270,7 +221,7 @@ $locale['setup_3204'] = "Forum";
 $locale['setup_3205'] = "&#350;tiri";
 $locale['setup_3206'] = "Galerie foto";
 $locale['setup_3207'] = "Sondaje";
-$locale['setup_3208'] = "Template-uri e-mail";//Email Templates";
+$locale['setup_3208'] = "&#350;abloane e-mail";
 $locale['setup_3209'] = "Leg&#259;turi pe internet";
 $locale['setup_3210'] = "Leg&#259;turi site";
 $locale['setup_3211'] = "Panouri";
@@ -401,9 +352,9 @@ $locale['setup_3702'] = "%d-%m-%Y %H:%M";
 $locale['setup_3703'] = "%B %d %Y";
 $locale['setup_3704'] = "%B %d %Y %H:%M:%S";
 
-// Email Template Setup
+// Email Templates Setup
 // Please do NOT translate the words between brackets [] !
-$locale['setup_3800'] = "Template-uri e-mail";//"Email Templates"
+$locale['setup_3800'] = "&#350;abloane e-mail";//"Email Templates"
 $locale['setup_3801'] = "Notificare la un nou mesaj privat";
 $locale['setup_3802'] = "Ai un nou mesaj privat de la [USER] care a&#351;teapt&#259; pe [SITENAME]";
 $locale['setup_3803'] = "Salut [RECEIVER],\r\nAi un nou mesaj privat cu titlul [SUBJECT] de la [USER] pe sait-ul [SITENAME]. &#206;&#355;i po&#355;i citi mesajul privat la [SITEURL]messages.php\r\n\r\nMesaj: [MESSAGE]\r\n\r\nDaca nu mai doresti sa primesti notificari la primirea de mesaje noi, poti dezactiva notificarile prin email cu ajutorul panoului de optiuni din pagina de mesaje private.\r\n\r\nCu respect,\r\n[SENDER].";
