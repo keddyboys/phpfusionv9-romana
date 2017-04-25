@@ -117,7 +117,6 @@ $locale['theme_4013'] = "Culoare leg&#259;tur&#259;";
 $locale['theme_4014'] = "Stil text";
 $locale['theme_4015'] = "Stil text orizontal";
 $locale['theme_4016'] = "Stil leg&#259;tur&#259;";
-$locale['theme_4016'] = "Stil text orizontal";
 
 $locale['theme_5000'] = "Normal";
 $locale['theme_5001'] = "&#206;ngro&#351;at";
