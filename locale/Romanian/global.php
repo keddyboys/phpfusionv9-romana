@@ -265,7 +265,7 @@ $locale['global_195'] = "Acest cont &#238;nc&#259; nu a fost activat.";
 $locale['global_196'] = "Nume sau parol&#259; incorecte.";
 $locale['global_197'] = "Te rog a&#351;teapt&#259; transferul...\n\n
 [ [LINK]Sau apas&#259; aici dac&#259; nu dore&#351;ti s&#259; a&#351;tep&#355;i[/LINK] ]";
-$locale['global_198'] = "Aten&#355;ie: Fi&#351;ierul de instalare a fost detectat. Te rog &#351;terge-l imediat directorul /INSTALL/.";
+$locale['global_198'] = "Aten&#355;ie: Fi&#351;ierul de instalare a fost detectat. Te rog &#351;terge imediat fi&#351;ierul install.php.";
 //$locale['global_199'] = "WARNING: admin password not set, click [LINK]Edit Profile[/LINK] to set it.";
 $locale['global_199'] = "Aten&#355;ie: parola de administrare nu este setat&#259;, apas&#259; [LINK]aici[LINK] pentru a o seta.";
 //Titles
