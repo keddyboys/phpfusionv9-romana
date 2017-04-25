@@ -39,5 +39,5 @@ $locale['426'] = "Dezactivarea leg&#259;turii SEo pentru %s s-a realizat cu succ
 $locale['427'] = "Nu exist&#259; nicio leg&#259;tur&#259; SEo activ&#259;.";
 $locale['428'] = "Leg&#259;turi SEo";
 $locale['seo_htc_warning']  = "Not&#259;: Dac&#259; schimbi set&#259;rile con&#355;inutul fi&#351;ierului `.htaccess` va fi rescris &#351;i toate modific&#259;rile anterioare vor fi pierdute.";
-$locale['rewrite_disabled'] = "Se pare c&#259; `mod_rewrite` nu este activ pe gazda ta. Activarea leg&#259;turilor SEo poate duce la o disfunctionalitate a saitului t&#259;u. Te rog i-a leg&#259;tura cu proprietarul g&#259;zduirii cu privire la activarea `mod_rewrite` pe saitul t&#259;u.";
+//$locale['rewrite_disabled'] = "Se pare c&#259; `mod_rewrite` nu este activ pe gazda ta. Activarea leg&#259;turilor SEo poate duce la o disfunctionalitate a saitului t&#259;u. Te rog i-a leg&#259;tura cu proprietarul g&#259;zduirii cu privire la activarea `mod_rewrite` pe saitul t&#259;u.";
 ?>

@@ -19,7 +19,7 @@ $locale['susp17'] = "Dezactiveaz&#259;";
 $locale['susp18'] = "Inactiveaz&#259;";
 $locale['susp_sys'] = "Ac&#355;iune de sistem";
 $locale['susp100'] = "Intr&#259;ri &#238;n jurnalul de utilizator pentru %s";
-$locale['susp100b'] = "Jurnal %sri pentru utilizatorul %s";
+$locale['susp100b'] = "Jurnal %s pentru utilizatorul %s";
 $locale['susp101'] = "Toate &#238;nregistr&#259;rile utilizatorului %s";
 $locale['susp102'] = "Istoricul statutului <strong>%s</strong> pentru utilizatorul %s";
 $locale['susp103'] = "ID";
@@ -28,7 +28,6 @@ $locale['susp105'] = "Tip / Motiv";
 $locale['susp106'] = "Administrator";
 $locale['susp107'] = "F&#259;r&#259; motiv!";
 $locale['susp108'] = "IP";
-
 $locale['susp109'] = "Ac&#355;iune de sistem";
 $locale['susp110'] = "Acest utilizator nu are &#238;nregistrat&#259; nicio ac&#355;iune &#238;n jurnal.";
 $locale['susp111'] = "Activat";

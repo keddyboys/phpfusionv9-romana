@@ -15,6 +15,7 @@ $locale['426'] = "Imagine &#238;nc&#259;rcat&#259;";
 $locale['427'] = "Imagini pentru categoriile de &#351;tiri";
 $locale['428'] = "Imagini blog";
 $locale['429'] = "Imagini pentru categoriile de blog";
+// View Image
 $locale['440'] = "Vizualizare imagine";
 $locale['441'] = "Format de fi&#351;ier necunoscut. Nu pot afi&#351;a imaginea.";
 $locale['442'] = "&#350;terge aceast&#259; imagine";

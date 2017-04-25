@@ -10,8 +10,10 @@ $locale['ac05'] = "Infuzii";
 $locale['ac10'] = "Panou de control administrator";//Admin Dashboard
 $locale['202'] = "Configurare profil utilizator";//User Profile Configuration
 
-$locale['AD'] = "Administratori";
-$locale['AWPR'] = "Resetare parol&#259; admin";
+// Pre-defined sections
+//$locale['AD'] = "Administratori";
+//$locale['AWPR'] = "Resetare parol&#259; admin";
+
 $locale['AC'] = "Categorii de articole";
 $locale['A'] = "Articole";
 $locale['BLOG'] = "Blog";
@@ -19,7 +21,6 @@ $locale['BLC'] = "Categorii de blog";
 $locale['CP'] = "Pagini personalizate";
 $locale['DC'] = "Categorii de desc&#259;rc&#259;ri";
 $locale['D'] = "Desc&#259;rc&#259;ri";
-$locale['ESHP'] = "Magazin";//eShop
 $locale['FQ'] = "&#206;ntreb&#259;ri frecvente";
 $locale['F'] = "Forum";
 $locale['IM'] = "Imagini";

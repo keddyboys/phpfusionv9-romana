@@ -35,6 +35,10 @@ $locale['theme_1031'] = "Aceast&#259; tematic&#259; nu suport&#259; widgets";
 $locale['theme_1032'] = "Exist&#259; widgets &#238;n acest&#259; tematic&#259; dar nu sunt instalate. Dore&#351;ti instalarea lor?";
 $locale['theme_1033'] = "ATEN&#354;IE: Toate datele vor fi pierdute dac&#259; dezinstalezi. Doresti s&#259; continui?";
 $locale['theme_1034'] = "Adaug&#259; o nou&#259; presetare";
+$locale['theme_1035'] = "Nicio descriere disponibl&#239; pentru aceast&#259; tematic&#259;.";
+$locale['theme_1036'] = "Cite&#351;te-m&#259;";
+$locale['theme_1037'] = "Selecteaz&#259; pachetul tematici";//Select Theme Pack";
+
 
 $locale['theme_2001'] = "Fonturi de baz&#259;";
 $locale['theme_2002'] = "Componente tematic&#259;";
@@ -143,4 +147,5 @@ $locale['theme_error_005'] = "Verificarea fi&#351;ierului a e&#351;uat. Te rog e
 $locale['theme_error_006'] = "Serverul t&#259;u nu suport&#259; ZipArchive. Te rog extrage arhiva &#351;i &#238;ncarc&#259; manual prin FTP";
 $locale['theme_error_007'] = "Tematica nu a putut fi reconstruit&#259; din urm&#259;torul motiv(e): - Variabilele nu au fost setate sau formularul are o eroare";
 $locale['theme_error_008'] = "Eroare compilare. Tematica nu a fost actualizat&#259;.";
+$locale['theme_error_009'] = "Fi&#351;ierul theme.php nu a fost g&#259;sit.";
 ?>

@@ -23,4 +23,6 @@ $locale['419'] = "Op&#355;iuni";
 $locale['420'] = "Versione";
 $locale['421'] = "Autor";
 $locale['422'] = "Descarc&#259; mai multe";
+$locale['423'] = "%s infuzii au fost instalate";
+$locale['424'] = "%s infuzii au fost dezinstalate";
 ?>

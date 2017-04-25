@@ -20,6 +20,10 @@ $locale['424'] = "PHP";
 $locale['425'] = "Jos-Centru";
 $locale['426'] = "Sub antet";
 $locale['427'] = "Deasupra subsolului";
+$locale['428a'] = "Utilizator 1";
+$locale['428b'] = "Utilizator 2";
+$locale['428c'] = "Utilizator 3";
+$locale['428d'] = "Utilizator 4";
 // Panel Options
 $locale['430'] = "Mut&#259; &#238;n st&#226;nga";
 $locale['431'] = "Mut&#259; &#238;n dreapta";
@@ -58,6 +62,8 @@ $locale['465'] = "Include&#355;i &#238;n aceste pagini";
 $locale['466'] = "Limb&#259; panou:";
 $locale['467'] = "Arat&#259; doar pe pagina de start";
 $locale['468'] = "Tip panou";
+$locale['469'] = "Niciunul";
+$locale['469a'] = "Con&#355;inut";
 // Update/Add new Panel Errors
 $locale['470'] = "Numele de panou nu este definit.";
 $locale['471'] = "Numele de panou este deja folosit.";
@@ -83,4 +89,5 @@ $locale['603'] = "Panouri folosite";//Used panels
 $locale['604'] = "Panouri";
 $locale['605'] = "Panou";
 $locale['606'] = "Con&#355;inut sait";//Site content
+$locale['607'] = "Fi&#351;ier";
 ?>
