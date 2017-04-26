@@ -7,4 +7,5 @@ $locale['rss_forums'] = "Forumuri";
 $locale['rss_news'] = "&#350;tiri";
 $locale['rss_weblinks'] = "Leg&#259;turi pe internet";
 $locale['rss_in'] = " &#238;n ";
+$locale['rss_nodata'] = "Niciun feed RSS disponibil";
 ?>

@@ -17,7 +17,7 @@
 +--------------------------------------------------------*/
 $locale['BLKW_0100'] = "Block Box";
 $locale['BLKW_0101'] = "Text Block Plugin";
-$locale['BLKW_0200'] = "Block Title";
+$locale['BLKW_0200'] = "TitlyBlock Title";
 $locale['BLKW_0201'] = "Block Description";
 $locale['BLKW_0202'] = "Block Position";
 $locale['BLKW_0203'] = "Default Position";

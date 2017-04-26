@@ -1,48 +1,43 @@
 <?php
-$locale['SB_title'] = "Shoutbox";
-$locale['SB_desc'] = "Panou Shoutbox";
-$locale['SB_admin1'] = "Administrare Shoutbox";
 
-// Shoutbox
-$locale['SB_name'] = "Nume:";
-$locale['SB_message'] = "Mesaj:";
-$locale['SB_shout'] = "Shout";
-$locale['SB_login_req'] = "Trebuie s&#259; te conectezi<br />pentru a posta un mesaj.";
+$locale['SB_add'] = "Mesaj nou";
+$locale['SB_admin1'] = "Administrare Shoutbox";
 $locale['SB_archive'] = "Arhiv&#259; shoutbox";
-$locale['SB_no_msgs'] = "Nu exist&#259; mesaje postate..";
-$locale['SB_delete'] = "&#350;terge";
-$locale['SB_validation_code'] = "Cod validare:";
-$locale['SB_enter_validation_code'] = "Introdu codul de validare:";
+$locale['SB_days'] = "zile";
+$locale['SB_delete_old'] = "&#350;terge mesajele mai vechi dec&#226;t";
+$locale['SB_delete_shouts'] = "&#350;terge shout-urile";
+$locale['SB_desc'] = "Panou Shoutbox";
 $locale['SB_edit_shout'] = "Editeaz&#259; mesajul";
 
-// Shoutbox messages
-$locale['SB_shout_updated'] = "Shout actualizat";
-$locale['SB_shout_deleted'] = "Shout &#351;ters";
-$locale['SB_shouts_deleted'] = "Shout-uri &#351;terse";
-
-// Edit Shout form
-$locale['SB_save_shout'] = "Salveaz&#259; mesaj";
-
-// Prune Shoutbox
-$locale['SB_delete_old'] = "&#350;terge mesajele mai vechi dec&#226;t";
-$locale['SB_days'] = " zile";
-$locale['SB_delete_shouts'] = "&#350;terge shout-urile";
-
-// Current Shouts
-$locale['SB_edit'] = "Editeaz&#259;";
-$locale['SB_userip'] = "IP utilizator: ";
-$locale['SB_on_date'] = " pe ";
-
-// Popup Error/Warning Messages
-$locale['SB_warning_shouts'] = "&#350;terg shouts?";
-$locale['SB_warning_shout'] = "&#350;terg acest shout?";
-
-// Settings
-$locale['SB_settings'] = "Set&#259;ri Shoutbox";
-$locale['SB_visible_shouts'] = "Vizibilitate mesaje";
+$locale['SB_enter_validation_code'] = "Introdu codul de validare:";
+$locale['SB_entries'] = "Currently displaying %d of %d total Shout entries.";
+$locale['SB_flood'] = "Flooding! Please wait %s seconds before you write the next message.";
 $locale['SB_guest_shouts'] = "Vizitatori pot trimite mesaje?";
-$locale['SB_yes'] = "Da";
-$locale['SB_no'] = "Nu";
-$locale['SB_submit'] = "Trimite";
-$locale['SB_update_ok'] = "Set&#259;ri actualizatre";
+$locale['SB_hidden_shouts'] = "Utilizare acces mod?";
+$locale['SB_lang'] = "Limb&#259;";
+$locale['SB_login_req'] = "Trebuie s&#259; te conectezi<br />pentru a posta un mesaj.";
+$locale['SB_message'] = "Mesaj";
+$locale['SB_name'] = "Nume";
+
+$locale['SB_no_msgs'] = "Nu exist&#259; mesaje postate.";
+$locale['SB_noentries'] = "Niciun shout selectat.";
+$locale['SB_save_shout'] = "Adaug&#259; shout";
+$locale['SB_selected_shout'] = "&#350;terge mesajele selectate";
+$locale['SB_settings'] = "Set&#259;ri Shoutbox";
+$locale['SB_shout'] = "Shout";
+$locale['SB_shout_added'] = "Shout ad&#259;ugat";
+$locale['SB_shout_captha'] = "Introdu codul de validare:";
+$locale['SB_shout_deleted'] = "Shout &#351;ters";
+$locale['SB_shout_updated'] = "Shout actualizat";
+$locale['SB_shouts_deleted'] = "Shout-uri &#351;terse";
+$locale['SB_title'] = "Shoutbox";
+
+$locale['SB_update_ok'] = "Set&#259;ri actualizate";
+$locale['SB_update_shout'] = "Actualizeaz&#259; Shout";
+$locale['SB_userip'] = "IP utilizator:";
+
+$locale['SB_visbility'] = "Vizibilitate";
+$locale['SB_visible_shouts'] = "Vizibilitate mesaje";
+$locale['SB_warning_shout'] = "&#350;terg shout-ul?";
+$locale['SB_warning_shouts'] = "&#350;terge shout-urile";
 ?>
