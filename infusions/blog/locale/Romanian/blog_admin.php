@@ -17,6 +17,7 @@ $locale['blog_0145'] = "Trimiterile de post&#259;ri pe blog au fost &#351;terse"
 $locale['blog_0146'] = "Trimiterile de post&#259;ri pe blog au fost publicate";//Blog Submissions has been published";
 $locale['blog_0147'] = "Trimiterile de post&#259;ri pe blog au fost salvate ca ciorne";//Blog Submissions is saved as draft";
 $locale['blog_0148'] = "Postat de ";
+$locale['blog_0149'] = "%s a fost dezactivat &#351;i nu va avea efect.";
 // Blog titles
 $locale['blog_0400'] = "Post&#259;ri curente pe blog";
 $locale['blog_0401'] = "Adaug&#259; postare pe blog";
@@ -54,7 +55,6 @@ $locale['blog_0432'] = "Fixeaz&#259; aceast&#259; postare pe blog";//Make this B
 $locale['blog_0433'] = "Aliniere automat&#259; pe r&#226;nduri";
 $locale['blog_0434'] = "Activeaz&#259; comentariile";
 $locale['blog_0435'] = "Activeaz&#259; vot&#259;rile";
-$locale['blog_0436'] = "Previzualizeaz&#259; postarea pe blog";
 $locale['blog_0437'] = "Salveaz&#259; postarea pe blog";
 $locale['blog_0438'] = "Ciorn&#259;";
 $locale['blog_0439'] = "Imagine postare pe blog :";
@@ -66,7 +66,6 @@ $locale['blog_0444'] = "Apasa enter dupa fiecare cuvant cheie";
 // Blog Category
 // Blog Categories titles
 $locale['blog_0500'] = "Editeaz&#259; o categorie de blog";
-$locale['blog_0501'] = "Adaug&#259; o categorie de blog";
 $locale['blog_0502'] = "Categorii de blog";
 // Blog Categories messages
 $locale['blog_0520'] = "Categorie de blog ad&#259;ugat&#259;";
@@ -82,8 +81,12 @@ $locale['blog_0533'] = "P&#259;rinte categorie:";
 $locale['blog_0535'] = "Nu exist&#259; categorii de blog definite";
 $locale['blog_0536'] = "Apas&#259; aici pentru &#238;nc&#259;rcarea imaginilor de categorii";
 $locale['blog_0537'] = "P&#259;rinte";
+$locale['blog_0538'] = "Bytes (bytes)";
+$locale['blog_0539'] = "KO (Kilobytes)";
+$locale['blog_0540'] = "MO (Megabytes)";
 // Popup Error/Warning Messages
 $locale['blog_0550'] = "&#350;terg aceast&#259; categorie de blog?";
+
 // Error Messages
 $locale['blog_0560'] = "Te rog introdu un nume pentru categorie.";
 $locale['blog_0561'] = "Aceast&#259; categorie exist&#259; deja.";
@@ -120,14 +123,14 @@ $locale['603'] = "M&#259;rime maxim&#259; imagine:";
 $locale['604'] = "L&#259;&#355;ime  x &#206;n&#259;l&#355;ime";//Width x Height
 $locale['605'] = "Dimensiunea max: (bytes):";
 // Blog & News Settings
-$locale['950'] = "&#206;nc&#259;rca imagine";
+$locale['950'] = "&#206;nc&#259;rc&#259; imagine";
 $locale['951'] = "Url imagine";//Image link
 $locale['952'] = "Categorie";
-$locale['953'] = "Posteaz&#259; o &#351;tire";
-$locale['953b'] = "Posteaz&#259; pe blog";
+$locale['953'] = "Posteaz&#259; pe blog";
 $locale['954'] = "Raport pictograme";//Thumb ratio
 $locale['955'] = "Original";
 $locale['956'] = "P&#259;trat";//"Square";
 $locale['959'] = "Imagine &#238;nc&#259;rcat&#259;";
 $locale['960'] = "Categorie imagine";
+$locale['961'] = "Tipuri de fi&#351;iere permise:";
 ?>
