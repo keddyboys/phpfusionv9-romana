@@ -10,7 +10,7 @@ $locale['410'] = "Rang ad&#259;ugat";
 $locale['411'] = "Rang actualizat";
 $locale['412'] = "Rang &#351;ters";
 $locale['413'] = "Doar un singur rang poate fi atribuit administratorilor &#351;i moderatorilor";
-$locale['414'] = "Te rog introdu un titlu de rand";
+$locale['414'] = "Te rog introdu un titlu de rang";
 // Forum Ranks form
 $locale['420'] = "Titlu rang:";
 $locale['421'] = "Imagine rang:";
@@ -38,4 +38,6 @@ $locale['438'] = "Tip / Num&#259;r";
 // Forum Ranks Disabled
 $locale['450'] = "Rangurile din forum sunt momentan dezactivate.<br />Du-te la %s pentru a le activa.";
 $locale['451'] = "Set&#259;ri forum";
+//$locale['forum_rank_0100'] = "Forum ranks are used to micro-manage forum users and shows their performance and activity";
+$locale['forum_rank_0100'] = "Rangurile din forum sunt folosite pentru a gestiona utilizatori &#351;i pentru a arata performan&#355;a &#351;i activitatea";
 ?>

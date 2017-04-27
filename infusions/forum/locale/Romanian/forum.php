@@ -1,5 +1,8 @@
 <?php
-// Forum Index
+$locale['error-DP001'] = "Nicio postare de mutat.";
+$locale['error-MP000'] = "Mutare post&#259;ri - eroare";
+$locale['error-MP001'] = "Noua discu&#355;ie nu exist&#259;.";
+$locale['error-MP002'] = "Post&#259;rile pe care le-ai selectat pentru mutare nu exist&#259; sau cineva le-a mutat deja.";
 $locale['forum_0000'] = "Forum de discu&#355;ii";
 $locale['forum_0001'] = "Forum";
 $locale['forum_0002'] = "Discu&#355;ii";
@@ -9,13 +12,12 @@ $locale['forum_0005'] = "F&#259;r&#259; post&#259;ri";
 $locale['forum_0006'] = "Pornit ";
 $locale['forum_0007'] = "Moderat de: ";
 $locale['forum_0008'] = "Director";
-$locale['forum_0009'] = "Arat&#259; post&#259;ri din anterioar&#259; Display posts from previous";
+$locale['forum_0009'] = "Arat&#259; post&#259;ri din &#238;nainte";// Display posts from previous";
 $locale['forum_0010'] = "Index forum";
 $locale['forum_0011'] = "Post&#259;rile mele";
 $locale['forum_0012'] = "Ultimele discu&#355;ii";
 $locale['forum_0013'] = "Categorii forum";
-
-// View Forum
+$locale['forum_0014'] = "Reputa&#355;ie";
 $locale['forum_0050'] = "Vizualizare forum";
 $locale['forum_0051'] = "Subiect";
 $locale['forum_0052'] = "Autor";
@@ -24,7 +26,6 @@ $locale['forum_0054'] = "R&#259;spunsuri";
 $locale['forum_0055'] = "Pagina: ";
 $locale['forum_0056'] = "Nicio discu&#355;ie pornit&#259;";
 $locale['forum_0057'] = "Porne&#351;te o nou&#259; discu&#355;ie";
-
 // View Forum Moderator options
 $locale['forum_0080'] = "Bifeaz&#259; tot";
 $locale['forum_0081'] = "Debifeaz&#259; tot";
@@ -39,7 +40,6 @@ $locale['forum_0103'] = "Discu&#355;ie lipit&#259;";
 
 // View Thread
 $locale['forum_0150'] = "Forum - Subject discu&#355;ie : ";
-$locale['forum_0151'] = "Post&#259;ri";
 $locale['forum_0152'] = "Loca&#355;ie:";
 $locale['forum_0153'] = "&#206;nscris:";
 $locale['forum_0154'] = " a ata&#351;at: ";
@@ -52,7 +52,8 @@ $locale['forum_0160'] = "din";
 $locale['forum_0161'] = " a ata&#351;at urm&#259;torul fi&#351;ier:";
 $locale['forum_0162'] = " Desc&#259;rc&#259;ri";
 $locale['forum_0163'] = "Nu ai permisiunea de a vizualiza fi&#351;ierele ata&#351;ate &#238;n acest&#259; discutie.";
-$locale['forum_0164'] = "ultima editare de ";
+$locale['forum_0163a'] = "Eroare afi&#351;are ata&#351;ament";//Failed to fetch the attachment";
+$locale['forum_0164'] = "Editat de ";
 $locale['forum_0165'] = "Motiv";
 $locale['forum_0166'] = "Apas&#259; aici pentru a vizualiza motivul edit&#259;rii.";
 $locale['forum_0167'] = " la ";
@@ -76,6 +77,7 @@ $locale['forum_0184'] = "Nu ai permisiunea de a vizualiza fi&#351;ierele ata&#35
 $locale['forum_0185'] = "Moderator:";
 $locale['forum_0186'] = "Nu ai permisiunea de a posta &#238;n acest forum";
 $locale['forum_0187'] = "Forumul nu exist&#259;";
+$locale['forum_0188'] = "Imaginea nu a fost &#259;sit&#259;";
 
 // Moderator Options
 $locale['forum_0200'] = "Optiuni moderator";//nu functioneaza &#355; pt tz
@@ -105,15 +107,9 @@ $locale['forum_0228'] = "Titlu";
 $locale['forum_0229'] = "Ordine";
 $locale['forum_0230'] = "Descresc&#259;tor";
 $locale['forum_0231'] = "Cresc&#259;tor";
-
-// Jump to Forum, back to top
 $locale['forum_0240'] = "Salt la forumul";
 $locale['forum_0241'] = "&#206;napoi sus";
-
-// Search Forum
 $locale['forum_0250'] = "Caut&#259;";
-
-// Image Alt attributes
 $locale['forum_0260'] = "Post&#259;ri noi";
 $locale['forum_0261'] = "Nu sunt post&#259;ri noi";
 $locale['forum_0262'] = "Discu&#355;ie lipit&#259;";
@@ -125,21 +121,17 @@ $locale['forum_0267'] = "a scris";
 $locale['forum_0268'] = "IP utilizator";
 $locale['forum_0269'] = "&#206;nc&#259; nu exist&#259; nicio discu&#355;ie pornit&#259;.";
 $locale['forum_0270'] = "Nicio postare gasit&#259;.";
-$locale['forum_0271'] = "Nu mai sunt post&#259;ri &#238;n aceast&#259; discu&#355;ie.Te rog revino la <a href='".FORUM."index.php'>indexul forumului</a>";
-
+$locale['forum_0271'] = "Nu mai sunt post&#259;ri &#238;n aceast&#259; discu&#355;ie.Te rog revino la &lt;a href=&#039;../../infusions/forum/index.php&#039;&gt;indexul forumului&lt;/a&gt;";
 // Move Posts
-$locale['forum_0300'] = "Mut&#259; post&#259;ri";
 $locale['forum_0301'] = "Alege noul forum";
 $locale['forum_0302'] = "Urm&#259;torul";
 $locale['forum_0303'] = "Alege o nou&#259; discu&#355;ie";
-$locale['forum_0304'] = "Mut&#259; post&#259;rile";
-$locale['forum_0305'] = "&#206;ncerci s&#259; mu&#355;i prima postare din aceast&#259; discu&#355;ie!<br />Prima postare <strong>nu va fi mutat&#259;</strong> &#351;i a fost &#351;tears&#259; din list&#259; deoarece &#238;nc&#259; exist&#259; post&#259;ri &#238;n aceast&#259; discu&#355;ie.";
-$locale['forum_0306'] = "&#206;ncerci s&#259; mu&#355;i prima postare din aceast&#259; discu&#355;ie!<br />Prima postare va fi <strong>mutat&#259;</strong> &#351;i discu&#355;ia va fi &#351;tears&#259;.";
+$locale['forum_0305'] = "&#206;ncerci s&#259; mu&#355;i prima postare din aceast&#259; discu&#355;ie!<br />Prima postare [STRONG]nu va fi mutat&#259;[/STRONG] &#351;i a fost &#351;tears&#259; din list&#259; deoarece &#238;nc&#259; exist&#259; post&#259;ri &#238;n aceast&#259; discu&#355;ie.";
+$locale['forum_0306'] = "&#206;ncerci s&#259; mu&#355;i prima postare din aceast&#259; discu&#355;ie!<br />Prima postare va fi [STRONG]mutat&#259;[/STRONG] &#351;i discu&#355;ia va fi &#351;tears&#259;.";
 $locale['forum_0307'] = "Nicio postare de mutat.";
 $locale['forum_0308'] = "Nu exist&#259; discu&#355;ii &#238;n acest forum.";
 $locale['forum_0309'] = "&#206;napoi la discu&#355;ie.";
 $locale['forum_0310'] = "Nicio discu&#355;ie pentru a muta post&#259;rile.";
-
 // Viewforum icons
 $locale['forum_0311'] = "Discu&#355;ii ";//Hot Thread";
 $locale['forum_0312'] = "Fi&#351;iere ata&#351;ate";
@@ -156,14 +148,12 @@ $locale['forum_0350'] = " Regulile forumului:";
 $locale['forum_0351'] = "Subforumuri";
 $locale['forum_0352'] = "Anun&#355;uri";
 $locale['forum_0360'] = " Adaug&#259; un r&#259;spuns";
-$locale['forum_0361'] = "&middot; Pagina ";
+$locale['forum_0361'] = "&amp;middot; Pagina ";
 $locale['forum_0362'] = " post&#259;ri ";
 $locale['forum_0363'] = "Ultima modificare la ";
 $locale['forum_0364'] = " Site utilizator";
 $locale['forum_0365'] = " R&#259;spunsuri";
 $locale['forum_0366'] = " Adaug&#259; sondaj";
-$locale['forum_0370'] = "Vizualiz&#259;ri";
-$locale['forum_0371'] = "Post&#259;ri";
 $locale['forum_0372'] = "Evalu&#259;ri";
 $locale['forum_0373'] = "Ultimul r&#259;spuns de: ";
 $locale['forum_0374'] = "Orice discu&#355;ie";
@@ -174,11 +164,6 @@ $locale['forum_0378'] = "Rezolvat";
 $locale['forum_0379'] = "Nerezolvat";
 $locale['forum_0380'] = "Autor";
 $locale['forum_0381'] = "Postat";
-$locale['forum_0382'] = "Subiect";
-$locale['forum_0383'] = "R&#259;spunsuri";
-$locale['forum_0384'] = "Vizualiz&#259;ri";
-$locale['forum_0385'] = "Cresc&#259;tor";
-$locale['forum_0386'] = "Descresc&#259;tor";
 $locale['forum_0387'] = "la &#238;nceput";
 $locale['forum_0388'] = "Arat&#259; discu&#355;iile de";
 $locale['forum_0389'] = "de tipul";
@@ -187,18 +172,10 @@ $locale['forum_0391'] = "data post&#259;ri";
 $locale['forum_0395'] = "Selecteaz&#259; forum";
 $locale['forum_0396'] = "Confirm&#259; selectarea forumului";
 $locale['forum_0397'] = "Nu sunt forumuri definite.";
-
-// Permissions - 0400
-$locale['forum_perm_access'] = "%s vizualiza toate discu&#355;iile din acest forum.";
-$locale['forum_perm_post'] = "%s porni o nou&#259; discu&#355;ie in acest forum.";
-$locale['forum_perm_create_poll'] = "%s porni un sondaj &#238;n acest forum.";
-$locale['forum_perm_upload'] = "%s &#238;nc&#259;rca ata&#351;mente &#238;n acest forum.";
-$locale['forum_perm_download'] = "%s desc&#259;rca ata&#351;mente din acest forum.";
-$locale['forum_perm_reply'] = "%s r&#259;spunde &#238;ntr-o discu&#355;ie din acest forum.";
-$locale['forum_perm_edit_poll'] = "%s edita un sondaj din acest forum.";
-$locale['forum_perm_vote_poll'] = "%s vota &#238;ntr-un sondaj din aceast&#259; discu&#355;ie.";
-$locale['forum_perm_rate'] = "%s da note unei post&#259;ri din aceast&#259; discu&#355;ie.";//up or downvote on the post in this discussion thread.";
-
+$locale['forum_0398'] = "Nu am putut desc&#259;rca fi&#351;ierul";
+$locale['forum_0399'] = "Adaug&#259; premiu";//Add Bounty";
+$locale['forum_0400'] = "Premiul discu&#355;iei a fost actualizat. Te rog fi sigur c&#259; ai selectat r&#259;spunsul pentru ai acorda premiul";
+//$locale['forum_0400'] = "Thread bounty has been updated. Please be sure to select the answer to be awarded with the bounty";
 // Post Titles
 $locale['forum_0500'] = "Previzualizeaz&#259; discu&#355;ia";
 $locale['forum_0501'] = "Posteaz&#259; discu&#355;ia";
@@ -206,20 +183,32 @@ $locale['forum_0502'] = "Previzualizeaz&#259; r&#259;spunsul";
 $locale['forum_0503'] = "R&#259;spunde la discu&#355;ie";
 $locale['forum_0504'] = "Posteaz&#259; r&#259;spunsul";
 $locale['forum_0505'] = "Previzualizeaz&#259; modific&#259;rile";
-$locale['forum_0506'] = "&#350;terge postare";
-$locale['forum_0507'] = "Editeaz&#259; postare";
+$locale['forum_0506'] = "&#350;terge postarea";
+$locale['forum_0507'] = "Editeaz&#259; postarea";
 $locale['forum_0508'] = "Salveaz&#259; modific&#259;rile";
 $locale['forum_0509'] = "R&#259;spunde";
-
+$locale['forum_0510'] = "Voteaz&#259; sus";//Up Vote";
+$locale['forum_0511'] = "Voteaz&#259; jos";//Down Vote";
+$locale['forum_0512'] = "Acceptat ca r&#259;spuns";
+$locale['forum_0513'] = "&#350;terge acest r&#259;spuns";
+$locale['forum_0514'] = "R&#259;spuns";//Answered";
+$locale['forum_0515'] = "Ai &#351;ters votul t&#259;u sus";//You have removed your upvote";
+$locale['forum_0516'] = "Ai votat sus";//You have upvoted";
+$locale['forum_0517'] = "Ai &#351;ters votul t&#259;u jos";//You have removed your downvote";
+$locale['forum_0518'] = "Ai votat jos";//You have downvoted";
+//$locale['forum_0519'] = "You do not have not earned enough privileges to {%action%}. You need to earn at least {%points%}";
+$locale['forum_0519'] = "Nu ai destule privilegii c&#226;&#351;tigate pentru {%action%}. Trebuie s&#259; c&#226;&#351;tigi cel pu&#355;in {%points%}";
 // Post Preview
 $locale['forum_0520'] = "Niciun mesaj, postarea va fi respins&#259; dac&#259; nu scrii un mesaj";
 $locale['forum_0521'] = "Post&#259;ri:";
-$locale['forum_0522'] = "Loca&#355;ie:";
-$locale['forum_0523'] = "Data &#238;nscrieri:";
 $locale['forum_0524'] = "Postat ";
 $locale['forum_0525'] = "Ultimele post&#259;ri";
 $locale['forum_0526'] = "Ultimele %s post&#259;ri";
-
+$locale['forum_0527'] = "%s a r&#259;spuns la aceast&#259; - %s";
+$locale['forum_0528'] = "%s %s %s aceast&#259; postare - %s";
+$locale['forum_0529'] = "a reac&#355;ionat la";
+$locale['forum_0529a'] = "Nu ai permisiunea de a vota";//You do not have sufficient permissions to vote";
+$locale['forum_0530'] = "&#351;i altor";
 // Post Error/Success
 $locale['forum_0540'] = "Tipul de fi&#351;ier ata&#351;at nu este permis.";
 $locale['forum_0541'] = "Numele sau dimensiunea nu sunt valide la fi&#351;ierul ata&#351;at.";
@@ -241,15 +230,16 @@ $locale['forum_0556'] = "Po&#355;i edita postarea &#238;n %d minute dup&#259; tr
 $locale['forum_0557'] = "Ata&#351;ament";
 $locale['forum_0558'] = " (Op&#355;ional)";
 $locale['forum_0559'] = "Dimensiune max. fi&#351;ier: %s / Tipuri de fi&#351;iere permise: %s / Num&#259;rul max. de ata&#351;amente: %s";
-$locale['forum_0570'] = "Dimensiunea max. imagine ";
+$locale['forum_0570'] = "Dimensiunea max. imagine atins&#259;. Po&#355;i &#238;nc&#259;rca p&#226;n&#259; la ";
+//$locale['forum_0570'] = "Photo Max size exceeded. You can only upload up to";
 $locale['forum_0571'] = "Imaginea nu a fost &#238;nc&#259;rcat&#259;";
-$locale['forum_0572'] = " post&#259;ri &#351;terse";
-$locale['forum_0573'] = " discu&#355;ii &#351;terse";
-$locale['forum_0574'] = " ata&#351;amente &#351;terse";
-$locale['forum_0575'] = " sondaje &#351;terse";
-$locale['forum_0576'] = " voturi &#238;n sondaje &#351;terse";
-$locale['forum_0577'] = " op&#355;iuni sondaje &#351;terse";//Polls Options deleted
-$locale['forum_0580'] = " Wipe records for Developer Use ";
+$locale['forum_0572'] = "Post&#259;ri &#351;terse";
+$locale['forum_0573'] = "Discu&#355;ii &#351;terse";
+$locale['forum_0574'] = "Ata&#351;amente &#351;terse";
+$locale['forum_0575'] = "Sondaje &#351;terse";
+$locale['forum_0576'] = "Voturi &#238;n sondaje &#351;terse";
+$locale['forum_0577'] = "Op&#355;iuni sondaje &#351;terse";//Polls Options deleted
+$locale['forum_0580'] = " &#350;terge &#238;nregistr&#259;rile pentru dezvoltare";//" Wipe records for Developer Use ";
 $locale['forum_0581'] = "Utilizatorii care particip&#259; la discu&#355;ie:";
 $locale['forum_0585'] = "Te rog introdu un mesaj &#238;n r&#259;spuns";
 $locale['forum_0586'] = "Id-ul post&#259;rii este gol! Te rog raporteaz&#259; asta unui Administrator."; //Post ID is blank, and not passed! Please report this to your system Administrator.
@@ -260,8 +250,6 @@ $locale['forum_0591'] = "&#350;terge toate post&#259;rile";//"Flush Post";
 $locale['forum_0592'] = "&#350;terge toate discu&#355;iile";//"Flush Threads";
 $locale['forum_0593'] = "&#350;terge toate ata&#351;amentele";//"Flush Attachments";
 $locale['forum_0595'] = "&#350;terge toate sondajele";//"Flush Poll";
-
-// Post Form
 $locale['forum_0600'] = "Subiect";
 $locale['forum_0601'] = "Mesaj";
 $locale['forum_0602'] = "Op&#355;iuni";
@@ -269,81 +257,56 @@ $locale['forum_0603'] = "Editeaz&#259; sondaj";
 $locale['forum_0604'] = "Titlu sondaj";
 $locale['forum_0604a'] = "Introdu un titlu pentru sondaj";
 $locale['forum_0605'] = "Op&#355;iuni sondaj";
-$locale['forum_0606'] = $locale['forum_0605']." %s";
+$locale['forum_0606'] = "Op&#355;iuni sondaj %s";
 $locale['forum_0607'] = "Sondaj ad&#259;ugat";
 $locale['forum_0608'] = "Adaug&#259; op&#355;iune sondaj";
 $locale['forum_0609'] = "Actualizeaz&#259;";
 $locale['forum_0610'] = "&#350;terge";
 $locale['forum_0611'] = "Motivul edit&#259;ri";
 $locale['forum_0612'] = "Sondaj editat";
-$locale['forum_0613'] = "Field marked with <span class='required'>*</span> contains votes or is required. Otherwise, leave blank to remove poll options";
+//$locale['forum_0613'] = "Field marked with {REQUIRED} contains votes or is required. Otherwise, leave blank to remove poll options";
+$locale['forum_0613'] = "C&#226;mpul marcat cu {REQUIRED} con&#355;ine voturi sau este necesat. Altfel, las&#259; gol pentru a &#351;terge op&#355;iunea sondajului";
 $locale['forum_0614'] = "Mul&#355;umim pentru vot. Your vote has been polled.";
 $locale['forum_0615'] = "Sondaj &#351;ters";
 $locale['forum_0616'] = "Aten&#355;ie: &#350;tergerea sondajului va &#351;terge deasemenea voturile.";
-
+$locale['forum_0617'] = "Aten&#355;ie: Nu e&#351;ti eligibil pentru a vota &#238;n acest sondaj.";
+//$locale['forum_0617'] = "Warning: You are not eligible to cast a vote in the poll.";
 // Post Form Options
 $locale['forum_0620'] = "Fixeaz&#259; discu&#355;ia";
 $locale['forum_0621'] = "&#206;nchide discu&#355;ia";
 $locale['forum_0622'] = "Dezactiveaz&#259; figurinele &#238;n aceast&#259; postare";
-$locale['forum_0623'] = "Afiseaz&#259; semn&#259;tura in postare";
 $locale['forum_0624'] = "&#350;terge aceast&#259; postare";
 $locale['forum_0625'] = "&#350;terge ata&#351;amentul -";
-$locale['forum_0626'] = "Anun&#355;&#259;-m&#259; c&#226;nd este postat un r&#259;spuns";
 $locale['forum_0627'] = "Ascunde editarea";
-$locale['forum_0628'] = "&#206;nchide acest topic";
+$locale['forum_0628'] = "&#206;nchide acest&#259; postare";
 $locale['forum_0630'] = "Sondajul va fi creat c&#226;nd o discu&#355;ie este ad&#259;ugat&#259;";
-
-// Forum Post Merger
 $locale['forum_0640'] = "Comasat pe";
-
-// Search Forum Form
 $locale['forum_0650'] = "Mesaj de control supra&#238;nc&#259;rcare.";//Flood control nice message.
 
-// Forum Notification Email
 $locale['forum_0660'] = "Notificare de r&#259;spuns la discu&#355;ie - {THREAD_SUBJECT}";
 $locale['forum_0661'] = "Salut {USERNAME},
-A fost postat un raspuns in discutia '{THREAD_SUBJECT}'  pe care o urmaresti la ".fusion_get_settings('sitename').". Poti folosi urmatoarea legatura pentru a vedea raspunsul:
+A fost postat un raspuns in discutia '{THREAD_SUBJECT}'  pe care o urmaresti la {SITENAME}. Poti folosi urmatoarea legatura pentru a vedea raspunsul:
 {THREAD_URL}
 Daca nu mai doresti sa urmaresti aceasta discutie, poti apasa pe legatura 'Nu mai urmari aceasta discutie', aflata la baza paginii discutiei.
 Cu respect,
-".fusion_get_settings('siteusername').".";
+{SITEUSERNAME}.";
 
 // Delete Thread
-$locale['forum_0700'] = "&#350;terge discu&#355;ia";
 $locale['forum_0701'] = "Discu&#355;ia a fost &#351;tears&#259;.";
-$locale['forum_0702'] = "Revenire la forum";
-$locale['forum_0703'] = "Revenire la indexul forumului";
 $locale['forum_0704'] = "E&#351;ti sigur c&#259; vrei s&#259; &#351;tergi aceast&#259; discu&#355;ie?";
-
-// Lock Thread
-$locale['forum_0710'] = "&#206;nchide discu&#355;ia";
+$locale['forum_0705'] = "Nu se poate &#351;terge discu&#355;ia deoarece nu exist&#259;";
 $locale['forum_0711'] = "Discu&#355;ia a fost &#238;nchis&#259;.";
-
-// Unlock Thread
 $locale['forum_0720'] = "Re-deschide discu&#355;ia";
 $locale['forum_0721'] = "Discu&#355;ia a fost re-deschis&#259;";
-
-// Make Thread Sticky
-$locale['forum_0730'] = "Fixeaz&#259; discu&#355;ia";
 $locale['forum_0731'] = "Discu&#355;ia a fost fixat&#259;.";
-
-// Make Thread Non-Sticky
-$locale['forum_0740'] = "De-fixeaz&#259; discu&#355;ia";
 $locale['forum_0741'] = "Discu&#355;ia nu mai este fixat&#259;.";
-
-// Move Thread
-$locale['forum_0750'] = "Mut&#259; discu&#355;ia";
 $locale['forum_0751'] = "Mut&#259; discu&#355;ia &#238;n:";
 $locale['forum_0752'] = "Discu&#355;ia a fost mutat&#259; cu succes.";
-
-// Renew Thread
-$locale['forum_0758'] = "Re&#238;nnoie&#351;te discu&#355;ia";
 $locale['forum_0759'] = "Discu&#355;ia a fost re&#238;nnoit&#259;.";
 
 // Post vote errors
 $locale['forum_0800'] = "Vot respins";//Vot rejected
-$locale['forum_0801'] = "Nu po&#355;i vota de dou&#259; ori &#238;n aceia&#351;i discu&#355;ie";//You cannot vote for a second time per thread
-$locale['forum_0802'] = "Nu po&#355;i vota la o postare care nu este a ta.";//You cannot vote at your own post
+$locale['forum_0802'] = "Nu po&#355;i vota la o postare a ta.";//You cannot vote at your own post
 $locale['forum_0803'] = "Vot acceptat";//Vote acccepted	
 
 // forum.forms.php
@@ -354,33 +317,51 @@ $locale['forum_2010'] = "Voteaz&#259;";//Cast vote
 $locale['forum_2011'] = "Creaz&#259; sondaj";
 $locale['forum_2012'] = "Editeaz&#259; sondaj";
 $locale['forum_2013'] = "Actualizeaz&#259; sondaj";
+$locale['forum_2014'] = "Seteaz&#259; un premiu";
+$locale['forum_2015'] = "Puncte|Punct";
+$locale['forum_2016'] = "Descriere premiu";
+$locale['forum_2017'] = "Seteaz&#259; premiul";
+$locale['forum_2018'] = "Start concurs";//Start Bounty
 
 /* Filters in viewforum */
-$locale['forum_3000'] = "toate discu&#355;iile";
-$locale['forum_3001'] = "discu&#355;iile";
-$locale['forum_3002'] = "ata&#351;amentele";
-$locale['forum_3003'] = "sondajele";
-$locale['forum_3004'] = "rezolvate";
-$locale['forum_3005'] = "nerezolvate";
-$locale['forum_3006'] = "la &#238;nceput";
-$locale['forum_3007'] = "azi";
 $locale['forum_3008'] = "dou&#259; zile";
 $locale['forum_3009'] = "o s&#259;pt&#259;m&#226;n&#259;";
 $locale['forum_3010'] = "dou&#259; s&#259;pt&#259;m&#226;ni";
 $locale['forum_3011'] = "o lun&#259;";
 $locale['forum_3012'] = "dou&#259; luni";
 $locale['forum_3013'] = "trei luni";
-$locale['forum_3014'] = "sa&#351;e luni";
+$locale['forum_3014'] = "&#351;ase luni";
 $locale['forum_3015'] = "1 an";
-$locale['forum_3016'] = "autor";
-$locale['forum_3017'] = "data postare";
-$locale['forum_3018'] = "subiect";
-$locale['forum_3019'] = "r&#259;spunsuri";
-$locale['forum_3020'] = "vizualiz&#259;ri";
-$locale['forum_3021'] = "Cresc&#259;tor";
-$locale['forum_3022'] = "Descresc&#259;tor";
+
+/*$locale['forum_4001'] = "Thread Answering";
+$locale['forum_4002'] = "Post Answer Accepted";
+$locale['forum_4003'] = "You have marked the post as the answered to your question";
+$locale['forum_4004'] = "Post Answer Removed";
+$locale['forum_4005'] = "You have marked the post as unanswered to your question";
+$locale['forum_4006'] = "Post Answer Changed";
+$locale['forum_4007'] = "You have changed the answer to your question";*/
+$locale['forum_4001'] = "Discu&#355;ie rezolvat&#259;";
+$locale['forum_4002'] = "Postare cu r&#259;spuns acceptat";
+$locale['forum_4003'] = "Ai marcat postarea care rezolv&#259; &#238;ntrebarea ta";
+$locale['forum_4004'] = "Postare cu r&#259;spuns respins";
+$locale['forum_4005'] = "Ai marcat postarea care nu rezolv&#259; &#238;ntrebarea ta";
+$locale['forum_4006'] = "Postare r&#259;spuns schimbat&#259;";
+$locale['forum_4007'] = "Ai schimbat r&#259;spunsul la &#238;ntrebarea ta";
+$locale['forum_4100'] = "Editeaz&#259; descrierea premiului";
+$locale['forum_4101'] = "Aceast&#259; &#238;ntrebare a avut un premiu de {%points%} de la {%profile_link%} care se termin&#259; &#238;n {%countdown%}";
+$locale['forum_4102'] = "Aceast&#259; &#238;ntrebare este adresat&#259; &#238;ntregii comunit&#259;&#355;i. Autorul a cerut r&#259;spunsul &#238;n aceast&#259; discu&#355;ie.";
+$locale['forum_4103'] = "Punctele au fost acordate lui {%user_name%}";
+$locale['forum_4104'] = "Dorim s&#259; te inform&#259;m c&#259; datorit&#259; faptului c&#259; nu este niciun r&#259;spuns selectat &#238;n perioada de timp, cel mai votat r&#259;spuns a primit jum&#259;tate din punctele bonus. Po&#355;i vizualiza cel mai bun r&#259;spuns {%link_start%}aici.{%link_end%}";//We wish to inform you that since there are no selected answer within bounty time limit, the highest voted answer has been awarded with half of the bounty points. You can view the best answer to your bounty {%link_start%}here.{%link_end%}";
+$locale['forum_4105'] = "Ai c&#226;&#351;tigat premiul!";
+$locale['forum_4106'] = "Felicit&#259;ri pentru c&#226;&#351;tigarea unei jum&#259;t&#259;&#355;i din premiul din {%thread_link%}. R&#259;spunsul t&#259;u a fost selectat implicit deoarece a primit cele mai multe voturi din partea comunit&#259;&#355;i &#238;nainte de terminarea timpului";//Congratulations for earning half of the total bounty points made on the question in {%thread_link%}. Your answer was selected by default because it has received the highest vote by the community before bounty time ended.";
+$locale['forum_4107'] = "Premiul acordat";//Award Bounty";
+$locale['forum_4108'] = "Premiul a fost acordat precum ai cerut";//The bounty has been awarded as requested.";
+$locale['forum_4109'] = "Premiul discu&#355;iei nu a fost acordat";//Thread bounty not awarded";
+$locale['forum_4110'] = "Premiul discu&#355;iei nu-&#355;i poate fi acordat";//Thread bounty cannot be given to yourself.";
+$locale['forum_4120'] = "Nu este definit niciun id forum sau id discu&#355;ie. Te rog define&#351;te oricare dintre ele";//There are no forum ID or thread id defined. Please define either one.";
 
 // Period for search & filter
+
 $locale['forum_p000'] = "Azi";
 $locale['forum_p001'] = "1 zi";
 $locale['forum_p002'] = "2 zile";
@@ -390,16 +371,17 @@ $locale['forum_p030'] = "1 lun&#259;";
 $locale['forum_p060'] = "2 luni";
 $locale['forum_p090'] = "3 luni";
 $locale['forum_p180'] = "6 luni";
-$locale['forum_p365'] = "1 an";
 $locale['forum_p999'] = "Toate rezultatele";
-
-// Notifications
-$locale['error-MP000'] = "Mutare post&#259;ri - eroare";
-$locale['error-MP001'] = "Noua discu&#355;ie nu exist&#259;.";
-$locale['error-MP002'] = "Post&#259;rile pe care le-ai selectat pentru mutare nu exist&#259; sau cineva le-a mutat deja.";
-$locale['error-MP003'] = "Nicio postare de mutat.";
+$locale['forum_perm_access'] = "%s vizualiza toate discu&#355;iile din acest forum.";
+$locale['forum_perm_bounty'] = "%s seta un premiu &#238;n aceast&#259; discu&#355;ie.";
+$locale['forum_perm_create_poll'] = "%s porni un sondaj &#238;n acest forum.";
+$locale['forum_perm_download'] = "%s desc&#259;rc&#259; ata&#351;amente din acest forum.";
+$locale['forum_perm_edit_poll'] = "%s edita sondajul din aceast&#259; discu&#355;ie.";
+$locale['forum_perm_post'] = "%s porni o nou&#259; discu&#355;ie.";
+$locale['forum_perm_rate'] = "%s vota sus sau jos o postare din aceast&#259; discu&#355;ie";//up or downvote on the post in this discussion thread.";
+$locale['forum_perm_reply'] = "%s r&#259;spunde &#238;n acest&#259; discu&#355;ie.";
+$locale['forum_perm_upload'] = "%s &#238;nc&#259;rca ata&#351;amente &#238;n acest forum.";
+$locale['forum_perm_vote_poll'] = "%s vota &#238;n sondajul din aceast&#259; discu&#355;ie.";
 $locale['success-DP001'] = "Post&#259;ri &#351;terse cu succes";
 $locale['success-DP002'] = "Toate post&#259;rile &#351;terse. Discu&#355;iile au fost &#351;terse deoarece nu mai con&#355;in nicio postare.";
-//All Post deleted.Forum threads have been removed because it no longer contains any post
-$locale['error-DP001'] = "Nici o postare de &#351;ters.";//No posts to be removed
 ?>

@@ -298,29 +298,29 @@ $locale['global_412'] = "Acest cont este anonim, probabil din cauza inactivit&#2
 // Flood control
 $locale['global_440'] = "Suspendat automat de Controlul abuzurilor";
 $locale['global_441'] = "Contul t&#259;u pe [SITENAME] a fost suspendat";
-$locale['global_442'] = "Salut [USER_NAME],\n
-Contul tau pe [SITENAME] a fost prins postand prea des intr-un interval foarte scurt de timp de pe adresa de IP [USER_IP]. si, ca urmare, a fost suspendat. Acest lucru este facut pentru a preveni robotii sa posteze mesaje de tip spam.\n
-Te rog contacteaza administratorul saitului la [SITE_EMAIL] pentru a-ti restaura contul.\n
+$locale['global_442'] = "Salut [USER_NAME],<br />\n
+Contul tau pe [SITENAME] a fost prins postand prea des intr-un interval foarte scurt de timp de pe adresa de IP [USER_IP]. si, ca urmare, a fost suspendat. Acest lucru este facut pentru a preveni robotii sa posteze mesaje de tip spam.<br />\n
+Te rog contacteaza administratorul saitului la [SITE_EMAIL] pentru a-ti restaura contul.<br />\n
 [SITEUSERNAME]";
 // Authenticate Class
 $locale['global_450'] = "Suspendare ridicat&#259; automat de sistem";
 $locale['global_451'] = "Suspendare ridicata pe [SITENAME]";
-$locale['global_452'] = "Salut USER_NAME,\n
-Suspendarea contului tau pe [SITEURL] a fost ridicata. Aici ai detaliile de conectare:\n
-Utilizator: USER_NAME\nParola: ascunsa din motive de securitate\n
-Daca ti-ai uitat parola o poti reseta accesand urmatoarea legatura: LOST_PASSWORD\n\n
-Cu respect,\n[SITEUSERNAME]";
-$locale['global_453'] = "Salut USER_NAME,\n
-Suspendarea contului tau pe [SITEURL] a fost ridicata.\n\n
-Cu respect,\n[SITEUSERNAME]";
+$locale['global_452'] = "Salut USER_NAME,<br />\n
+Suspendarea contului tau pe [SITEURL] a fost ridicata. Aici ai detaliile de conectare:<br />\n
+Utilizator: USER_NAME<br />\nParola: ascuns&#259; din motive de securitate<br />\n
+Daca ti-ai uitat parola o poti reseta accesand urmatoarea legatura: LOST_PASSWORD<br /><br />\n\n
+Cu respect,<br />\n[SITEUSERNAME]";
+$locale['global_453'] = "Salut USER_NAME,<br />\n
+Suspendarea contului tau pe [SITEURL] a fost ridicata.<br /><br />\n\n
+Cu respect,<br />\n[SITEUSERNAME]";
 $locale['global_454'] = "Cont reactivat pe [SITENAME]";
-$locale['global_455'] = "Salut, USER_NAME!\n
-Dupa ultima ta conectare la [SITEURL], contul tau nu mai este marcat ca inactiv.\n\n
-Cu respect,\n[SITEUSERNAME]";
+$locale['global_455'] = "Salut, USER_NAME!<br />\n
+Dupa ultima ta conectare la [SITEURL], contul tau nu mai este marcat ca inactiv.<br /><br />\n\n
+Cu respect,<br />\n[SITEUSERNAME]";
 $locale['global_456'] = "Noua parola pentru [SITENAME]";
 $locale['global_457'] = "Salut USER_NAME,
-\n\nO nou&#259; parol&#259; a fost setat&#259; pentru contul t&#259;u pe [SITENAME]. Te rog folose&#351;te noile detalii de conectare:\n\n
-Utilizator: USER_NAME\nParol&#259;: [PASSWORD]\n\nRegards,\n[SITEUSERNAME]";
+\n\nO nou&#259; parol&#259; a fost setat&#259; pentru contul t&#259;u pe [SITENAME]. Te rog folose&#351;te noile detalii de conectare:<br /><br />\n\n
+Utilizator: USER_NAME\n<br />Parol&#259;: [PASSWORD]<br /><br />\n\Cu repect,<br />\n[SITEUSERNAME]";
 $locale['global_458'] = "Noua parol&#259; a fost setat&#259; pt USER_NAME";
 $locale['global_459'] = "Noua parol&#259; a fost setat&#259; pentru USER_NAME, &#351;i nu a fost trimis niciun email. Te rog asigur&#259;-te c&#259; va primi noile detalii de conectare.";	
 // Function parsebytesize()
@@ -405,7 +405,7 @@ $locale['show'] = "Arat&#259;";
 $locale['actions'] = "Ac&#355;iuni";
 $locale['language'] = "Limba";
 // Persons & Identifiers
-$locale['you'] = "Tu";
+$locale['you'] = "&#354;ie";
 $locale['me'] = "Eu";
 $locale['they'] = "Ei";
 $locale['we'] = "Noi";
