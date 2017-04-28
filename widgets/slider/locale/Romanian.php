@@ -69,3 +69,4 @@ $locale['SLDW_0600'] = "Save Slider";
 $locale['SLDW_0601'] = "Save and Close Slider";
 $locale['SLDW_0602'] = "Read more..";
 $locale['SLDW_0603'] = "Interval (ms)";
+?>

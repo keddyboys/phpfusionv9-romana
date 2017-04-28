@@ -7,3 +7,4 @@ $locale['f0104'] = "Salveaz&#259; &#351;i &#238;nchide fi&#351;ierul";
 $locale['f0105'] = "ATEN&#355;IE: Fi&#351;ierul inclus nu a fost g&#259;sit";
 $locale['f0106'] = "Utilizeaz&#259; un server de hosting fi&#351;iere";
 $locale['f0107'] = "Widget fi&#351;ier";
+?>

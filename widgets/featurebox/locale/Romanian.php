@@ -51,3 +51,4 @@ $locale['FBW_0229'] = "Save and Close Feature Box";
 $locale['FBW_0230'] = "Box Class";
 
 $locale['FBW_0300'] = "Find out more";
+?>
