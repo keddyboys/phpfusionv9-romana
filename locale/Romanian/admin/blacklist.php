@@ -12,16 +12,16 @@ $locale['BLS_016'] = "Adresa de e-mail introdus&#259; &#238;n lista neagr&#259; 
 $locale['BLS_020'] = "Lista neagr&#259; utilizatori"; //420
 $locale['BLS_021'] = "Editeaz&#259; utilizatorul din Lista neagr&#259;"; //421
 $locale['BLS_022'] = "Adaug&#259; un utilizator &#238;n Lista neagr&#259;";
-$locale['BLS_023'] = "Afi&#351;are %d din %d intr&#259;ri &#238n lista neagr&#259;.";
+$locale['BLS_023'] = "Sunt afi&#351;ate %d din %d intr&#259;ri &#238n lista neagr&#259;.";
 
 $locale['BLS_030'] = "Informa&#355;ii despre cei din Lista neagr&#259;"; //461
 $locale['BLS_031'] = "Administrator"; //467
 $locale['BLS_032'] = "Data";  //468
 $locale['BLS_033'] = "Op&#355;iuni"; //462
-$locale['BLS_034'] = "Adaug&#259; IP &#238;n lista neagr&#259;: <strong>sau</strong>"; //441
-$locale['BLS_035'] = "Adaug&#259; email &#238;n lista neagr&#259;"; //442
+$locale['BLS_034'] = "Adaug&#259; IP &#238;n lista neagr&#259;: [STRONG]
+sau[/STRONG]"; 
+$locale['BLS_035'] = "Adaug&#259; email &#238;n lista neagr&#259;"; 
 $locale['BLS_036'] = "Motivul ad&#259;ug&#259;rii"; //443
-$locale['BLS_037'] = "Adaug&#259; utilizator &#238;n lista neagr&#259;";  //444
 $locale['BLS_038'] = "Actualizeaz&#259;";
 
 $locale['BLS_MS'] = "Introducerea unei adrese IP va &#238;mpiedica vizita utilizatorului 

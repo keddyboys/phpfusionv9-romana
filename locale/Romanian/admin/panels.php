@@ -70,7 +70,7 @@ $locale['471'] = "Numele de panou este deja folosit.";
 $locale['472'] = "Con&#355;inutul panoului nu este definit.";
 $locale['473'] = "Numele de fi&#351;ier al panoului nu este definit.";
 $locale['474'] = "Parola de administrare nu este corect&#259;.";
-$locale['475'] = "Trebuie s&#259; bifezi \"Afi&#351;eaz&#259; pe toate paginile\" atunci c&#226;nd restric&#355;ionezi panourile de sus-centru &#351;i jos-centru.";//$locale['475'] = "There must be at least a section in the filter list to use the filter
+$locale['475'] = "Trebuie s&#259; fie cel pu&#355;in o sec&#355;iune &#238;n lista de filtre pentru a folosi filtru.";//$locale['475'] = "There must be at least a section in the filter list to use the filter
 // Update/Add new Panel Success/Fail
 $locale['480'] = "Actualizare panou";
 $locale['481'] = "Panoul nu putut fi actualizat";

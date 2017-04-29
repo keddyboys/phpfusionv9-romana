@@ -1,5 +1,5 @@
 <?php
-$locale['c100'] = "Comentari";
+$locale['c10'] = "Comentarii";
 $locale['c101'] = "Niciun comentariu nu a fost postat.";
 $locale['c102'] = "Posteaz&#259; comentariu";
 $locale['c103'] = "Actualizeaz&#259; comentariu";

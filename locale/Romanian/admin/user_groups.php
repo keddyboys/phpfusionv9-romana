@@ -16,7 +16,7 @@ $locale['GRP_412'] = "\"%s\" utilizatori au fost &#351;tersi din grupul \"%s\"";
 
 // Edit/Delete Options
 $locale['GRP_420'] = "Grupuri de utilizatori";
-$locale['GRP_421'] = "Edit Group";
+$locale['GRP_421'] = "Editeaz&#259; grup";
 $locale['GRP_422'] = "&#350;terge";
 $locale['GRP_423'] = "Management utilizatori";
 $locale['GRP_424'] = "Afi&#351;are %d grupuri de utilizatori.";

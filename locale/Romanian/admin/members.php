@@ -7,7 +7,7 @@ $locale['ME_403'] = 'Adaug&#259; un nou utilizator';
 $locale['ME_404'] = 'Aplic&#259; filtru';
 $locale['ME_405'] = 'Nu exist&#259; niciun utilizator dup&#259; criteriul c&#259;utat';//There are no user found under the search criteria';
 //
-$locale['ME_407'] = 'Afi&#351;are %s - %d din %d utilizatori g&#259;si&#355;i';
+$locale['ME_407'] = 'Sunt afi&#351;a&#355;i %s - %d din %d utilizatori g&#259;si&#355;i';
 $locale['ME_408'] = 'Informa&#355;ii de baz&#259;';
 $locale['ME_409'] = 'Informa&#355;ii detailate';
 $locale['ME_410'] = 'Utilizator';
@@ -37,13 +37,13 @@ $locale['ME_437'] = 'Actualizeaz&#259; utilizator';
 
 $locale['ME_450'] = 'Adaug&#259; un nou utilizator';
 $locale['ME_451'] = 'Profilul lui %s';
-$locale['ME_452'] = 'Editeaz&#259; profilul  lui %s';
+$locale['ME_452'] = 'Editeaz&#259; profilul lui %s';
 $locale['ME_453'] = '&#350;terge utilizatorul %s';
 $locale['ME_454'] = "Aten&#355;ie!";
 $locale['ME_455'] = "E&#351;ti pe cale sa &#351;tergi utilizatorul %s!\n\r\n\rCon&#355;inutul postat de acest utilizator va fi &#351;ters dac&#259; continui.\n\r
 Dac&#259; este spammer &#238;&#351;i recomand&#259;m s&#259;-l suspenzi, anulezi sau anomizezi.\n\r
 E&#351;ti sigur ca vrei s&#259; &#351;tergi acest membru?\n\r";
-$locale['ME_456'] = '&#350;terge utilizator';
+$locale['ME_456'] = '&#350;terge utilizatorul';
 
 $locale['ME_460'] = 'Nu exist&#259; utilizator &#238;n pericol de dezactivare';//There are no users to be deactivated';
 $locale['ME_461'] = '%s a fost dezactivat';

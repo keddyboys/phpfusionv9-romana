@@ -1,8 +1,8 @@
 <?php
 // Infusion titles & description
-$locale['apw_4title'] = "Resetarea parolei de administrator";
-$locale['apw_4desc'] = "Schimbarea parolei de conectare/admin a administratorulu";
-$locale['apw_4admin1'] = "Resetare administrator";
+$locale['apw_title'] = "Resetarea parolei de administrator";
+$locale['apw_desc'] = "Schimbarea parolei de conectare/admin a administratorulu";
+$locale['apw_admin1'] = "Resetare administrator";
 $locale['apw_400'] = "Resetare parol&#259; administrator(i):";
 $locale['apw_401'] = "To&#355;i administratorii";
 $locale['apw_402'] = "Doar Super Administrator";

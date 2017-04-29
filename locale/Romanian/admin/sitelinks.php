@@ -27,7 +27,7 @@ $locale['SL_0032'] = "Niciun p&#259;rinte";
 $locale['SL_0033'] = "Limb&#259; leg&#259;tur&#259;";
 $locale['SL_0034'] = "Protejat";
 $locale['SL_0035'] = "Subleg&#259;tur&#259;";
-$locale['SL_0036'] = "Mut&#259; subleg&#259;tura la... ";//Move Sitelinks to...";
+$locale['SL_0036'] = "Mut&#259; leg&#259;tura la... ";//Move Sitelinks to...";
 $locale['SL_0037'] = "Te rog selecteaz&#259; p&#259;rinte leg&#259;tur&#259;";
 $locale['SL_0038'] = "Nu sunt leg&#259;turi disponibile care pot fi p&#259;rinte pentru leg&#259;tura";//There are no links available that can be the link parent";
 $locale['SL_0039'] = "Confirm&#259; mutarea";
@@ -40,7 +40,6 @@ $locale['SL_0044'] = "Leg&#259;turi maxime afi&#350;te pe bara de navigare";//Ma
 $locale['SL_0045'] = "Numb&#259;r de leg&#259;turi";
 $locale['SL_0046'] = "Grupare leg&#259;turi";//Link Grouping";
 $locale['SL_0047'] = "Grupeaz&#259; leg&#259;turile c&#226;nd cantitate de leg&#259;turi dep&#259;&#351;esc leg&#259;turi per pagin&#259;";
-//Grupează legăturile când cantitate de legături depășesc legături per pagină
 //$locale['SL_0047'] = "Group links when amount of links exceeds links per page";
 $locale['SL_0048'] = "Nu, nu grupa leg&#259;turile";
 $locale['SL_0049'] = "Da, grupeaz&#259; leg&#259;turile ca \"Arat&#259; mai multe\"";

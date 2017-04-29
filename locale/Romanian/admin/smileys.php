@@ -36,5 +36,5 @@ $locale['SMLY_437'] = "Te rog introdu un cod  pentru figurin&#259;";
 $locale['SMLY_438'] = "Te rog introdu o figurin&#259;";
 $locale['SMLY_439'] = "Te rog introdu un text pentru figurin&#259;";
 $locale['SMLY_440'] = "Nicio figurin&#259; activ&#259;";
-$locale['SMLY_441'] = "No figurin&#259; inactiv&#259;";
+$locale['SMLY_441'] = "Nicio figurin&#259; inactiv&#259;";
 ?>

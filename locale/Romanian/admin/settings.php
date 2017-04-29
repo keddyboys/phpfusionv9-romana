@@ -2,8 +2,8 @@
 $locale['400'] = "Set&#259;ri";
 // Site Settings
 $locale['401'] = "Set&#259;ri principale";
-$locale['402'] = "Nume";
-$locale['403'] = "URL";
+$locale['402'] = "Nume sait";
+$locale['403'] = "URL sait";
 $locale['404'] = "Imagine sait";
 $locale['404left'] = "St&#226;nga";
 $locale['404center'] = "Centru";
@@ -282,7 +282,7 @@ $locale['user_description'] = "Set&#259;ri configurare pentru sistemul de manage
 $locale['theme_description'] = "Set&#259;ri configurare pentru tematicii";
 $locale['blog_settings'] = "Set&#259;ri blog";
 $locale['download_settings'] = "Set&#259;ri desc&#259;rc&#259;ri";
-$locale['eshop_settings'] = "Set&#259;ri magazin";
+
 $locale['forum_settings'] = "Set&#259;ri forum";
 $locale['ipp_settings'] = "Set&#259;ri elemente pe pagin&#259;";
 $locale['photo_settings'] = "Set&#259;ri galerie foto";
@@ -296,6 +296,4 @@ $locale['time_settings'] = "Set&#259;ri dat&#259; &#351;i timp";
 $locale['user_settings'] = "Set&#259;ri utilizatori";
 $locale['theme_settings'] = "Set&#259;ri tematic&#259;";
 $locale['securimage3'] = "Secure Image v.3";
-//$locale['securimage'] = "Secure Image";
-//$locale['securimage2'] = "Secure Image v.2";
 ?>
