@@ -11,8 +11,8 @@ $locale['MEMB_008'] = "Ultima dat&#259; activ";
 $locale['MEMB_009'] = "Cel mai nou &#238;nregistrat";//Newly Registered";
 $locale['MEMB_010'] = "Alfabet";
 
-$locale['MEMB_012'] = "Ascendent";
-$locale['MEMB_013'] = "Descendent";
+$locale['MEMB_012'] = "Cresc&#259;tor";
+$locale['MEMB_013'] = "Descresc&#259;tor";
 $locale['MEMB_014'] = "Arat&#259;-i pe to&#355;i";
 $locale['MEMB_015'] = "Nu apar&#355;ine niciunui grup";
 $locale['MEMB_016'] = "Acces la toate grupurile";

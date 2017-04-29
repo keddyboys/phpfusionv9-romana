@@ -1,6 +1,5 @@
 <?php
-// Error Levels Desciption
-$locale['err_103'] = "{%function%} {%folder%} does not exists.";
+// Error Levels Desciption										
 $locale['E_ERROR'] = "Eroare major&#259;, care opre&#351;te execu&#355;ia scripturilor";
 $locale['E_WARNING'] = "Eroare medie din timpul execu&#355;iei scripturilor";
 $locale['E_PARSE'] = "Eroare generat&#259; de interpretor";

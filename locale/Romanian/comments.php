@@ -1,5 +1,5 @@
 <?php
-$locale['c10'] = "Comentarii";
+$locale['c100'] = "Comentarii";
 $locale['c101'] = "Niciun comentariu nu a fost postat.";
 $locale['c102'] = "Posteaz&#259; comentariu";
 $locale['c103'] = "Actualizeaz&#259; comentariu";
@@ -14,5 +14,4 @@ $locale['c111'] = "Las&#259; un comentariu";
 $locale['c112'] = "R&#259;spunde";
 $locale['c113'] = "Titlu";
 $locale['c114'] = "Comentariile au fost actualizare";
-
 ?>

@@ -41,7 +41,7 @@ $locale['435'] = "Anuleaz&#259;";
 //$locale['436'] = "Previzualizare r&#259;spuns";
 $locale['437'] = "Trimite";
 //$locale['438'] = "Previzualizare mesaj";
-$locale['439'] = "R&#259;spuns";
+$locale['439'] = "R&#259;spunde";
 $locale['440'] = "(%s primite)";
 $locale['441'] = "Scrie &#238;n calitate de proprietar site";
 $locale['442'] = "Nivele utilizatori";
@@ -122,7 +122,7 @@ $locale['524'] = "Da, p&#259;streaz&#259;-mi mesajele trimise";
 
 // Options
 $locale['620'] = "Set&#259;ri";
-$locale['621'] = "Anun&#355;&#259;-m&#259; prin email c&#226;nd primesc un nou MP:";
+$locale['621'] = "Anun&#355;&#259;-m&#259; prin e-mail c&#226;nd primesc un nou MP:";
 $locale['622'] = "Salveaz&#259; automat mesajele trimise:";
 $locale['623'] = "Salveaz&#259; op&#355;iunile";
 $locale['624'] = "Op&#355;iuni salvate";

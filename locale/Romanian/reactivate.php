@@ -10,9 +10,9 @@ Poate contul t&#259;u este deja reactivat &#351;i &#206;n acest caz ar trebui s&
 Dac&#259; nu te po&#355;i conecta acum, te rog contacteaz&#259; administratorul saitului la [SITEEMAIL] dac&#259; dore&#351;ti reactivarea manual&#259;.";
 // Send confirmation mail
 $locale['504'] = "Cont reactivat la [SITENAME]";
-$locale['505'] = "Salut, [USER_NAME]!\n
-Contul t&#259;u pe [SITENAME] a fost reactivat. Sper&#259;m s&#259; te vedem mai des pe acest site.\n\n
-Cu respect,\n\n
+$locale['505'] = "Salut, [USER_NAME]!<br />\n
+Contul t&#259;u pe [SITENAME] a fost reactivat. Sper&#259;m s&#259; te vedem mai des pe acest site.<br /><br />\n\n
+Cu respect,<br /><br />\n\n
 [SITEUSERNAME]";
 $locale['506'] = "Cont reactivat de utilizator.";
 ?>

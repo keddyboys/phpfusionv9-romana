@@ -49,12 +49,11 @@ $locale['setup_stepx'] = "%2\$s";
 $locale['setup_0120'] = "Sf&#226;r&#351;itul configur&#259;rii ";
 $locale['setup_0121'] = "Continu&#259;";
 $locale['setup_0122'] = "Re&#238;ncearc&#259;";
-//$locale['setup_0123'] = "Sf&#226;r&#351;it";
+
 $locale['setup_0124'] = "Du-te la op&#355;iunile de recuperare";
 $locale['setup_0125'] = "Dezinstalare &#238;n progres. Te rog a&#351;teapt&#259;...";
 $locale['setup_0130'] = "Set&#259;ri Xdebug";
 $locale['setup_0131'] = "xdebug.max_nesting_level este setat la";
-//$locale['setup_0132'] = "Set {%code%} in your PHP configuration as some pages in your Drupal site will not work when this setting is too low.";
 $locale['setup_0132'] = "Seteaz&#259; {%code%} &#238;n configura&#355;ia ta PHP deoarece cateva pagini din saitul t&#259; Drupal nu vor func&#355;iona c&#226;nd aceast&#259; setare este prea mic&#259;.";
 $locale['setup_0134'] = "Toate fi&#351;ierele necesare au trecut testul de scriere.";
 $locale['setup_0135'] = "Pentru a putea continua instalarea, urm&#259;toarele fi&#351;iere &#351;i foldere necesit&#259; permisiune de scriere. Te rog chmod fi&#351;iere;e la 755 sau 777 pentru a continua";
@@ -65,7 +64,6 @@ $locale['setup_0139'] = "Tabelele bazei de date au fost create";//Database colum
 $locale['setup_0140'] = "Baza de date este disponibil&#259; &#351;i gata de instalare";//0Database is available and ready for installation";
 $locale['setup_0141'] = "Permisiuni &#351;i acces baza de date verificate";//Database permissions and access verified";
 $locale['setup_0142'] = "fi&#351;ierul config.php a fost creat";
-//$locale['setup_0143'] = "The specified table prefix is already in use and is running. The installer will proceed with updating differences as required";
 $locale['setup_0143'] = "Prefixul de tabel specificat este deja folosit &#351;i func&#355;ioneaz&#259;. Procesul de instalare va continua cu actualiz&#259;rile necesare";
 $locale['setup_0144'] = "Diagnostic baza de date complet";// Database Diagnostics Completed";
 
@@ -108,19 +106,12 @@ $locale['setup_1206'] = "Prefixul tabelelor:";
 $locale['setup_1207'] = "Prefixul cookie:";
 $locale['setup_1208'] = "Drivere baza de date";//Database Driver";
 
-/*$locale['setup_1209'] = "PDO pare s&#259; nu fie disponibil";
-$locale['setup_1210'] = "Nu";
-$locale['setup_1211'] = "Da";
-$locale['setup_1212'] = "Alege limbile pentru a le folosi:";
-$locale['setup_1213'] = "Numele proprietarului";
-*/
 $locale['setup_1210'] = "Erori instalare PHP-Fusion. Te rog restarteaz&#259; instalarea.";
 $locale['setup_1211'] = "Noua instalare PHP-Fusion complet&#259;. Te rog mergi la urm&#259;torul pas.";
 $locale['setup_1212'] = "Configurare sait &#351;i Super Administrator";
 $locale['setup_1213'] = "Detalii informa&#355;i sait";
 $locale['setup_1214'] = "Nume sait";
 $locale['setup_1215'] = "Saitul t&#259;u motorizat de PHP-Fusion";
-//$locale['setup_1216'] = "PHP-Fusion is a lightweight open source content management system (CMS) written in PHP.";
 $locale['setup_1216'] = "PHP-Fusion este un sistem integrat de gestiune a conţinutului(CMS) de categorie u&#351;oar&#259; scris &#238;n PHP.";
 $locale['setup_1217'] = "Contul t&#259;u a fost actualizat. Te rog folose&#351;te noile creden&#355;iale de acum &#238;ncolo ";//Please use the new credentials from now on.";
 $locale['setup_1220'] = "Numele bazei de date &#238;n care dore&#351;ti rularea PHP-Fusion";
@@ -132,7 +123,6 @@ $locale['setup_1307'] = "Te rog verific&#259; permisiunile de scriere ale fi&#35
 $locale['setup_1310'] = "Conexiunea cu serverul MySQL nu a fost stabilit&#259;.";
 $locale['setup_1311'] = "Baza de date specificat&#259; nu exist&#259;.";
 $locale['setup_1313'] = "Prefixul tabelelor este deja folosit. Niciun tabel nu va fi instlalat.Te rog reia procesul sau treci la pasul urm&#259;tor";
-//$locale['setup_1313'] = "The specified table prefix is already in use and is running. No tables will be installed. Please start over or proceed to the next step.";
 $locale['setup_1315'] = "Te rog asigur&#259;-te c&#259; utilizatorul are drepturi de citire, scriere &#351;i &#351;tergere pentru baza de date selectat&#259;.";
 $locale['setup_1317'] = "Te rog asigur&#259;-te c&#259; ai completat toate c&#226;mpurile pentru baza de date.";
 

@@ -1,8 +1,9 @@
 <?php
-$locale['validate'] = "Please check and revalidate the field.";
-$locale['error_request'] = "There was an error while processing your request"; // to be moved
-$locale['regex_error'] = "Please check and revalidate the %s field"; // to be moved
+$locale['validate'] = "Te rog verific&#259; &#351;i revalideaz&#259; c&#226;mpul.";
+$locale['error_request'] = "A intervenit o eroare &#238;n procesarea cererii tale"; // to be moved
+$locale['regex_error'] = "Te rog verific&#259; &#351;i revalideaz&#259; %s c&#226;mpul"; // to be moved
 // Text fields errors
+$locale['error_input_username'] = "Te rog introdu un nume de utilizator valid";
 $locale['error_input_default'] = "Te rog completa&#355;i acest c&#226;mp";
 $locale['error_input_password'] = "Te rog introdu o parol&#259; valid&#259;";
 $locale['error_input_email'] = "Te rog introdu o adres&#259; de e-mail valid&#259;";
@@ -34,9 +35,9 @@ $locale['city_error'] = "Ora&#351;ul necesit&#259; aten&#355;ia ta.";
 $locale['postcode_error'] = "Codul po&#351;tal necesit&#259; aten&#355;ia ta.";
 $locale['field_error_blank'] = "%s nu poate fi gol.";
 // Name errors
-$locale['firstname_error'] = "Numele necesit&#259; aten&#355;ia ta.";
+$locale['firstname_error'] = "Prenumele necesit&#259; aten&#355;ia ta.";
 $locale['lastname_error'] = "Numele de familie necesit&#259; aten&#355;ia ta.";
-$locale['name_error'] = "Numele &#351;i numele de familie nu pot fi acelea&#351;i.";
+$locale['name_error'] = "Prenumele &#351;i numele de familie nu pot fi acelea&#351;i.";
 // Document errors
 $locale['doc_type_error'] = "Tip document necesit&#259; aten&#355;ia ta.";
 $locale['doc_series_error'] = "Serie document necesit&#259; aten&#355;ia ta.";
@@ -56,13 +57,11 @@ $locale['token_error_7'] = "Hash token invalid";//Invalid token hash.";
 $locale['token_error_8'] = "Format token invalid.";
 $locale['token_error_9'] = "Nu am putut g&#259;si niciun token pentru acest formular";//Cannot find any token for this form.";
 $locale['token_error_10'] = "Nu am putut g&#259;si niciun token pentru memorie ";//Cannot find any token for storage: ";
-
 $locale['df_300'] = "Apas&#259; pentru a ad&#259;uga fi&#351;iere";
 $locale['df_301'] = "Apas&#259; pentru a ad&#259;uga fotografii";
 $locale['df_302'] = "Apas&#259; pentru a ad&#259;uga fi&#351;iere video";
 $locale['df_303'] = "Apas&#259; pentru a ad&#259;uga fi&#351;iere audio";
 $locale['df_304'] = "&#350;terge fi&#351;ierele selectate";//Selected file Remove";
-
 $locale['df_400'] = "%s con&#355;ine caractere invalide.";
 $locale['df_401'] = "%s nu este un e-mail valid.";
 $locale['df_402'] = "%s nu este o parol&#259; valid&#259;.";
@@ -82,9 +81,9 @@ $locale['df_424'] = "Fi&#351;ierele &#238;nc&#259;rcate au dep&#259;&#351;it lim
 // ReCaptcha2
 $locale['grecaptcha'] = "Google Recaptcha";
 $locale['grecaptcha_desc'] = "Google Recaptcha Field Module";
-$locale['grecaptcha_placeholder_1'] = "SITE KEY from Google";
-$locale['grecaptcha_placeholder_2'] = "SECRET-KEY from Google";
-$locale['no_keys'] = "It looks like you don't have any keys yet. Register and obtain your [RECAPTCHA_LINK]public key here[/RECAPTCHA_LINK]";
+$locale['grecaptcha_placeholder_1'] = "SITE KEY de la Google";
+$locale['grecaptcha_placeholder_2'] = "SECRET-KEY de la Google";
+$locale['no_keys'] = "Se pare c&#259; nu ai nicio cheie &#238;nc&#259;.&#206;nregistreaz&#259;-te &#351;i ob&#355;ine cheia ta public&#259; [RECAPTCHA_LINK]aici[/RECAPTCHA_LINK]";
 // here
 //$locale['review_keys'] = "<a href='https://www.google.com/recaptcha/admin' target='_BLANK'><button class='button'>Review your keys at Google reCAPTCHA</button></a>";
 $locale['grecaptcha_0100'] = "Cheie public&#259;";
