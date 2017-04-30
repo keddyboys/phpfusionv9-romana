@@ -10,8 +10,8 @@ $locale['SB_desc'] = "Panou Shoutbox";
 $locale['SB_edit_shout'] = "Editeaz&#259; mesajul";
 
 $locale['SB_enter_validation_code'] = "Introdu codul de validare:";
-$locale['SB_entries'] = "Currently displaying %d of %d total Shout entries.";
-$locale['SB_flood'] = "Flooding! Please wait %s seconds before you write the next message.";
+$locale['SB_entries'] = "Sunt afi&#351;ate %d din %d totalul de mesaje scurte.";
+$locale['SB_flood'] = "Suprasolicitare! Te rog a&#351;teapt&#259; %s seconde &#238;nainte de a scrie un urm&#259;torul mesaj.";
 $locale['SB_guest_shouts'] = "Vizitatori pot trimite mesaje?";
 $locale['SB_hidden_shouts'] = "Utilizare acces mod?";
 $locale['SB_lang'] = "Limb&#259;";
