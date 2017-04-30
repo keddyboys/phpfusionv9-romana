@@ -90,7 +90,7 @@ $locale['601'] = "M&#259;rime pictograme:";
 $locale['602'] = "M&#259;rime imagine:";
 $locale['603'] = "M&#259;rime maxim&#259; imagine:";
 $locale['604'] = "L&#259;&#355;ime x &#206;n&#259;l&#355;ime";
-$locale['605'] = "M&#259;rime maxim&#259; fi&#351;ier (bytes):";
+$locale['605'] = "M&#259;rime maxim&#259; fi&#351;ier (octe&#355;i):";
 $locale['606'] = "Tipul de compresie pictograme";
 $locale['607'] = "GD1";
 $locale['608'] = "GD2";
@@ -229,7 +229,7 @@ $locale['1013'] = "&#350;tergere utilizatori";
 $locale['1014'] = "Utilizatorii se pot conecta simultan de pe mai multe dispozitive?";
 $locale['1014a'] = "Dezactiveaz&#259; pentru o mai bun&#259; securitate";
 
-$locale['1020'] = array(1 => 'Bytes (bytes)', 1000 => 'KB (Kilobytes)', 1000000 => 'MB (Megabytes)');
+$locale['1020'] = array(1 => 'Octe&#355;i (octe&#355;i)', 1000 => 'KO (Kiloocte&#355;i)', 1000000 => 'MO (Megaocte&#355;i)');
 // Social integration
 $locale['1030'] = "Creaz&#259; meta tag OpenGraph pentru re&#355;ele de socializare";//"Create OpenGraph meta tags for Social networks";
 $locale['1031'] = "Permite URL-uri index &#238;n coduri BB";//"Allow index URLs in BB Codes";
