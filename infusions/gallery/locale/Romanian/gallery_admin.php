@@ -19,7 +19,7 @@ $locale['album_0020'] = "Op&#355;iuni album";
 $locale['album_0021'] = "Mut&#259; sus";
 $locale['album_0022'] = "Mut&#259; jos";
 $locale['album_0023'] = "&#350;terge album";
-$locale['album_0024'] = "Editeaz&#259; album";
+
 $locale['album_0025'] = "Album mutat sus";
 $locale['album_0026'] = "Album mutat jos";
 $locale['album_0027'] = "Exist&#259; fotografii &#238;n albumul curent";
@@ -37,9 +37,7 @@ $locale['gallery_0006'] = "Set&#259;ri galerie foto";
 $locale['gallery_0007'] = "Vizualizare trimitere foto";
 $locale['gallery_0009'] = "&#206;nc&#259;rca&#355;i o singur&#259; poz&#259;";
 $locale['gallery_0010'] = "&#206;nc&#259;rca poze multiple";
-$locale['gallery_0011'] = "Niciun album foto definit.";
-$locale['gallery_0012'] = "Niciun album foto definit. Trebuie s&#259; ai cel pu&#355;in un album foto definit pentru a ad&#259;uga fotografi. Apas&#259; <a href='%s'>aici</a> pentru a ad&#259;uga un album foto";
-//$locale['gallery_0012'] = "There are no Photo Albums defined. You must at least have one category before you can add any Photos. <a href='%s'>Click here</a> to go to Photo Albums";
+$locale['gallery_0012'] = "Niciun album foto definit. Trebuie s&#259; ai cel pu&#355;in un album foto definit pentru a ad&#259;uga fotografi. [link]Apas&#259; aici[/link] pentru a ad&#259;uga un album foto";
 $locale['gallery_0013'] = "Op&#355;iuni imagine";
 $locale['gallery_0014'] = "Mut&#259; sus";
 $locale['gallery_0015'] = "Mut&#259; jos";
@@ -57,7 +55,6 @@ $locale['gallery_0102'] = "Trimite o alt&#259; fotografie";
 $locale['gallery_0107'] = "Folose&#351;te urm&#259;torul formular pentru a trimite o fotografie. Trimiterea ta va fi verificat&#259; de un Administrator. <br />
 [SITENAME] &#238;&#351;i rezerv&#259; dreptul de a modifica sau edita orice trimitere.<br /> 
 Trimiterile ar trebui s&#259; fie aplicabile con&#355;inutului acestui portal, iar cele nepotrivite vor fi respinse.";
-
 $locale['gallery_0111'] = "Trimite imaginea";
 $locale['gallery_0112'] = "Ne pare r&#259;u, deocamdat&#259; nu accept&#259;m trimiteri de fotografii.";
 $locale['gallery_0113'] = "Revenire la [SITENAME]";
@@ -73,7 +70,6 @@ $locale['gallery_0158'] = "Public&#259; fotografia";
 $locale['gallery_0159'] = "&#350;terge trimiterea";
 $locale['gallery_0160'] = "Fotografia a post publicat&#259;";
 $locale['gallery_0161'] = "Fotografia a fost &#351;tears&#259;";
-
 $locale['gallery_0200'] = "Permi&#355;i trimiterea de fotografii?";
 $locale['gallery_0201'] = "Descrierea fotografiei este obligatorie?";
 $locale['gallery_0202'] = "Pictograme pe pagin&#259;:";
@@ -106,16 +102,15 @@ $locale['photo_0013'] = "Ordine imagine";
 $locale['photo_0014'] = "Pictograma imaginii este obligatorie";
 $locale['photo_0015'] = "Imaginea a fost actualizat&#259;";
 $locale['photo_0016'] = "Imaginea a fost ad&#259;ugat&#259;";
-$locale['photo_0019'] = "Po&#355;i &#238;nc&#259;rca p&#226;n&#259; la 20 imagini aici. Clic pe +Adaug&#259; imagine &#351;i selecteaz&#259; mai multe imagini. Apas&#259; pe salveaz&#259; imagine pentru a incepe &#238;nc&#259;rcarea.";//
-// hold and drag across multiple images to select the images. Click Save Photo to start uploading your photos.";
+$locale['photo_0019'] = "Po&#355;i &#238;nc&#259;rca p&#226;n&#259; la 20 imagini aici. Clic pe +Adaug&#259; imagine &#351;i selecteaz&#259; mai multe imagini. Apas&#259; pe Salveaz&#259; imagine pentru a incepe &#238;nc&#259;rcarea.";
 $locale['photo_0020'] = "&#206;ncarc&#259; imaginile selectate";
 $locale['photo_0021'] = "%d imagini au fost ad&#259;ugate";
 $locale['photo_0021a'] = "%d imagini nu au fost ad&#259;ugate datorit&#259; erorilor";
 $locale['photo_0022'] = "Imaginea mutat&#259; sus";
 $locale['photo_0023'] = "Imaginea mutat&#259; jos";
 $locale['photo_0024'] = "Imagine &#351;tears&#259;";
-$locale['photo_0025'] = "Cur&#259;&#355;&#259; toate imaginile";//Purge All Photos";
-$locale['photo_0026'] = "[STRONG]ATEN&#354;IE:[/STRONG] Ac&#355;iunea de cur&#259;&#355;are va [STRONG]&#351;terge permanent toate imaginile[/STRONG] din acest album. Esti sigur?";
+$locale['photo_0025'] = "Cur&#259;&#355;&#259; toate imaginile";
+$locale['photo_0026'] = "[STRONG]ATEN&#354;IE:[/STRONG] Ac&#355;iunea de cur&#259;&#355;are va [STRONG]&#351;terge permanent toate imaginile[/STRONG] din acest album. E&#351;ti sigur?";
 $locale['photo_0027'] = "Confirm&#259; cur&#259;&#355;area";
 $locale['photo_0028'] = "Anuleaz&#259;";
 ?>
