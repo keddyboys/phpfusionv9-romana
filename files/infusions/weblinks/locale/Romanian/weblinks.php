@@ -10,11 +10,9 @@ $locale['fmt_open'] = "deschide|deschide";
 // Sortings
 $locale['web_0030'] = "Cele mai recente";
 $locale['web_0031'] = "Top vizite";//Top Opened";
-
 // Views
 $locale['web_0040'] = "Vizualizare ca galerie";
 $locale['web_0041'] = "Vizualizare ca list&#259;";
-
 // Messages
 $locale['web_0060'] = "Nicio categorie de leg&#259;turi pe internet definit&#259;.";
 $locale['web_0061'] = "Nicio leg&#259;tur&#259; pe internet definit&#259;.";

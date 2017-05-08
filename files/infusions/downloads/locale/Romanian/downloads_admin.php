@@ -117,7 +117,7 @@ $locale['download_0306'] = "Cresc&#259;tor";
 $locale['download_0307'] = "Descresc&#259;tor";
 $locale['download_0308'] = "P&#259;rinte categorie:";
 $locale['download_0309'] = "Salveaz&#259; categorie";
-$locale['download_0350'] = "Sterg aceasta categorie?";
+$locale['download_0350'] = "&#350;terg aceast&#259; categorie?";
 $locale['download_0351'] = "V&#259; rug&#259;m s&#259; introduce&#355;i un nume de categorie.";
 $locale['download_0352'] = "Aceast&#259; categorie exist&#259; deja.";
 ?>

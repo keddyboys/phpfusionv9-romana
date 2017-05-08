@@ -39,7 +39,7 @@ $locale['forum_0102'] = "Discu&#355;ie &#238;nchis&#259;";
 $locale['forum_0103'] = "Discu&#355;ie lipit&#259;";
 
 // View Thread
-$locale['forum_0150'] = "Forum - Subject discu&#355;ie : ";
+$locale['forum_0150'] = "Forum - Subiect discu&#355;ie : ";
 $locale['forum_0152'] = "Loca&#355;ie:";
 $locale['forum_0153'] = "&#206;nscris:";
 $locale['forum_0154'] = " a ata&#351;at: ";

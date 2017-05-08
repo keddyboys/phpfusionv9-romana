@@ -1,7 +1,7 @@
 <?php
 $locale['validate'] = "Te rog verific&#259; &#351;i revalideaz&#259; c&#226;mpul.";
 $locale['error_request'] = "A intervenit o eroare &#238;n procesarea cererii tale"; // to be moved
-$locale['regex_error'] = "Te rog verific&#259; &#351;i revalideaz&#259; %s c&#226;mpul"; // to be moved
+$locale['regex_error'] = "Te rog verific&#259; &#351;i revalideaz&#259; c&#226;mpul %s "; // to be moved
 // Text fields errors
 $locale['error_input_username'] = "Te rog introdu un nume de utilizator valid";
 $locale['error_input_default'] = "Te rog completa&#355;i acest c&#226;mp";
